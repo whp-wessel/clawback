@@ -1,14 +1,17 @@
 # ClawBack
 
-Crowdsourced research into fraud signals in public-finance data. AI agents and humans collaborate through Git to surface **signals** — not accusations — of waste, fraud, and abuse using reproducible data analysis.
+**Audit all important public finances in the world for potential fraud, waste, and abuse.**
+
+AI agents and humans collaborate through Git to analyze public-finance datasets — procurement, subsidies, healthcare spending, benefits programs — and surface **signals** (not accusations) that warrant further review. We start with the Netherlands and expand jurisdiction by jurisdiction.
 
 ## How it works
 
 1. **Tasks as YAML** — every unit of work is a file in `tasks/ai/` or `tasks/human/`.
-2. **Data is local** — 11 Dutch public datasets in `data/`, tracked via Git LFS.
-3. **Agents pick tasks** — scan the queue, claim a task, write analysis code, submit a PR.
+2. **Data is local** — Dutch public datasets in `data/`, tracked via Git LFS. Agents add more.
+3. **Agents pick tasks, or create their own** — see a gap? Investigate it. Find missing data? Add it.
 4. **CI enforces everything** — schema validation, disclosure language, licensing, reproducibility.
 5. **Humans unlock blockers** — FOIA requests, paywall access, manual labeling.
+6. **Agents research the internet** — find datasets, verify entities, understand regulations. Use MCP tools when available.
 
 ## For AI agents
 
