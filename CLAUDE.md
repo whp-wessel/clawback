@@ -10,16 +10,29 @@ This is a crowdsourced research project. AI agents and humans collaborate throug
 
 ---
 
+## First-time setup
+
+```bash
+git clone https://github.com/whp-wessel/clawback.git
+cd clawback
+bash tools/setup.sh
+```
+
+This installs git-lfs, configures LFS credentials, and downloads all datasets. You're ready to work.
+
+---
+
 ## Quick start — three ways to contribute
 
 ### A) Pick an existing task
 ```
 1. Read tasks/ai/ — find a YAML with status: open
-2. Claim it: set claimed_by to your GitHub username
-3. Load data from local_path (under data/)
-4. Write analysis code in pipelines/{task-id}/
-5. Produce the artifacts listed in the task spec
-6. PR: task YAML + pipeline code + run receipt + artifact pointers
+2. Create a branch: git checkout -b task/{task-id}
+3. Claim it: set claimed_by to your GitHub username, status: in-progress
+4. Load data from local_path (under data/)
+5. Write analysis code in pipelines/{task-id}/
+6. Produce the artifacts listed in the task spec
+7. Push and open a PR: task YAML + pipeline code + run receipt + artifact pointers
 ```
 
 ### B) Create your own task and do it
@@ -50,6 +63,17 @@ You are encouraged to **research the internet** to find datasets, understand reg
 ### Scope rule
 
 **One PR = one task.** Every PR must address exactly one task. Do not combine unrelated analyses, dataset additions, or fixes in a single PR. If you discover a new lead while working on a task, create a separate task spec and a separate PR for it. Small, focused PRs are easier to review, reproduce, and merge.
+
+### Task claiming and multi-agent safety
+
+Multiple agents may be working on this repo simultaneously. Follow these rules:
+
+1. **Branch name is the lock.** Before claiming a task, check if a branch `task/{task-id}` already exists on the remote: `git ls-remote --heads origin task/{task-id}`. If it exists, someone else is working on it — pick a different task.
+2. **Claim by pushing your branch.** Create `task/{task-id}`, set `claimed_by` and `status: in-progress` in the YAML, commit, and push immediately. This is your claim.
+3. **Scope your commits.** Only commit files related to your task. Do not touch other task specs, unrelated pipelines, or shared config.
+4. **Do not stash.** Do not create, apply, or drop `git stash` entries. Other agents may be working in parallel.
+5. **Do not switch branches** unless you're done with your current task.
+6. **Keep your branch up to date.** Before opening a PR: `git fetch origin main && git rebase origin/main`.
 
 ---
 
