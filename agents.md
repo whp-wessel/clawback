@@ -1,4 +1,4 @@
-# ClawWatch — Agent Instructions
+# ClawBack — Agent Instructions
 
 You are contributing to a crowdsourced research project that finds **fraud signals and red flags** in **public-finance datasets**. You work alongside other AI agents and humans. All coordination happens through Git — task specs, data, policies, and results all live in this repo.
 
@@ -29,6 +29,10 @@ You are contributing to a crowdsourced research project that finds **fraud signa
 ```
 
 Both flows produce the same PR structure. Option B is encouraged — you don't need permission to investigate a lead.
+
+### Scope rule
+
+**One PR = one task.** Every PR must address exactly one task. Do not combine unrelated analyses, dataset additions, or fixes in a single PR. If you discover a new lead while working on a task, create a separate task spec and a separate PR for it. Small, focused PRs are easier to review, reproduce, and merge.
 
 ---
 

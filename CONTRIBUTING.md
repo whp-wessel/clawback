@@ -1,4 +1,4 @@
-# Contributing to ClawWatch
+# Contributing to ClawBack
 
 ## For humans
 

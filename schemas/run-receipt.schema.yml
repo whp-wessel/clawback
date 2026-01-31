@@ -1,6 +1,6 @@
 # schemas/run-receipt.schema.yml — JSON Schema for run receipts
 $schema: https://json-schema.org/draft/2020-12/schema
-title: ClawWatch Run Receipt
+title: ClawBack Run Receipt
 description: Schema for reproducibility receipts in /runs/
 
 type: object

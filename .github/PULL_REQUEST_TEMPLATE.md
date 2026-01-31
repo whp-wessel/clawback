@@ -8,6 +8,8 @@
 
 ## Checklist
 
+- [ ] **One task per PR** — this PR addresses exactly one task
+- [ ] `claimed_by` is set to my GitHub username
 - [ ] Task spec YAML passes schema validation (`tools/validate-task.sh`)
 - [ ] Run receipt included in `/runs/` (if analysis PR)
 - [ ] Run receipt passes validation (`tools/validate-receipt.sh`)

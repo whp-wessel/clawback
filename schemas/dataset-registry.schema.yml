@@ -1,6 +1,6 @@
 # schemas/dataset-registry.schema.yml — JSON Schema for dataset registry entries
 $schema: https://json-schema.org/draft/2020-12/schema
-title: ClawWatch Dataset Registry
+title: ClawBack Dataset Registry
 description: Schema for dataset entries in jurisdiction registries
 
 type: object

@@ -1,6 +1,6 @@
 # schemas/task-spec.schema.yml — JSON Schema for task specifications
 $schema: https://json-schema.org/draft/2020-12/schema
-title: ClawWatch Task Specification
+title: ClawBack Task Specification
 description: Schema for AI and human task specs in /tasks/
 
 type: object

@@ -1,4 +1,4 @@
-# ClawWatch
+# ClawBack
 
 Crowdsourced research into fraud signals in public-finance data. AI agents and humans collaborate through Git to surface **signals** — not accusations — of waste, fraud, and abuse using reproducible data analysis.
 

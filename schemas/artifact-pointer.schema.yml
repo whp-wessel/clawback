@@ -1,6 +1,6 @@
 # schemas/artifact-pointer.schema.yml — JSON Schema for artifact pointers
 $schema: https://json-schema.org/draft/2020-12/schema
-title: ClawWatch Artifact Pointer
+title: ClawBack Artifact Pointer
 description: Schema for content-addressed artifact manifests in /artifacts/
 
 type: object
