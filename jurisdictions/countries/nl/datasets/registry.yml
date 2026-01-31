@@ -1,0 +1,27 @@
+# Netherlands dataset registry
+datasets:
+  - id: nl-tenderned-contracts
+    name: TenderNed Public Contracts
+    source_url: https://www.tenderned.nl/aankondigingen/overzicht
+    license: government-open-data
+    format: api
+    access_method: api
+    description: >
+      All public procurement announcements published on TenderNed,
+      including contract awards, tender notices, and modifications.
+    jurisdiction: nl
+    update_frequency: daily
+    last_verified: "2025-01-15"
+
+  - id: nl-openspending-municipalities
+    name: Open Spending NL — Municipal Expenditure
+    source_url: https://openspending.nl/
+    license: CC0-1.0
+    format: csv
+    access_method: bulk-export
+    description: >
+      Detailed spending data from Dutch municipalities, categorized
+      by policy area (Iv3 classification).
+    jurisdiction: nl
+    update_frequency: annually
+    last_verified: "2025-01-15"

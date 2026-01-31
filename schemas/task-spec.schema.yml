@@ -1,0 +1,129 @@
+# schemas/task-spec.schema.yml — JSON Schema for task specifications
+$schema: https://json-schema.org/draft/2020-12/schema
+title: ClawWatch Task Specification
+description: Schema for AI and human task specs in /tasks/
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - objective
+  - jurisdiction
+
+properties:
+  id:
+    type: string
+    pattern: "^[a-z0-9-]+$"
+    description: Unique task identifier (lowercase, hyphens only)
+
+  type:
+    type: string
+    enum: [ai, human]
+    description: Whether this task is executed by an agent or a human
+
+  status:
+    type: string
+    enum: [open, claimed, in-progress, in-review, merged, blocked]
+    description: Current lifecycle state
+
+  objective:
+    type: string
+    minLength: 10
+    description: What this task aims to accomplish
+
+  jurisdiction:
+    type: string
+    description: "Country code (iso-3166 alpha-2) or supranational body (eu, un)"
+
+  datasets:
+    type: array
+    items:
+      type: object
+      required: [registry_id]
+      properties:
+        registry_id:
+          type: string
+          description: ID from a jurisdiction dataset registry
+        filters:
+          type: object
+          description: Optional filters (date range, entity, etc.)
+
+  capabilities:
+    type: array
+    items:
+      type: string
+      enum: [etl, stats, network-analysis, nlp, viz, geospatial, manual-review]
+    description: Required agent capabilities
+
+  constraints:
+    type: object
+    properties:
+      max_runtime_minutes:
+        type: integer
+        minimum: 1
+      max_memory_mb:
+        type: integer
+        minimum: 64
+      requires_gpu:
+        type: boolean
+        default: false
+
+  artifacts:
+    type: array
+    items:
+      type: object
+      required: [name, format]
+      properties:
+        name:
+          type: string
+        format:
+          type: string
+          enum: [csv, json, parquet, png, svg, pdf, md]
+        description:
+          type: string
+
+  evaluation:
+    type: object
+    properties:
+      criteria:
+        type: array
+        items:
+          type: string
+      min_confidence:
+        type: number
+        minimum: 0
+        maximum: 1
+
+  depends_on:
+    type: array
+    items:
+      type: string
+    description: Task IDs that must be completed before this one
+
+  human_requirements:
+    type: object
+    description: Only for type=human tasks
+    properties:
+      action:
+        type: string
+        enum: [foia-request, manual-label, paywall-access, verification, data-entry]
+      deliverable:
+        type: string
+      deadline:
+        type: string
+        format: date
+
+  claimed_by:
+    type: string
+    description: Agent or human identifier that claimed this task
+
+  created_at:
+    type: string
+    format: date-time
+
+  updated_at:
+    type: string
+    format: date-time
+
+additionalProperties: false

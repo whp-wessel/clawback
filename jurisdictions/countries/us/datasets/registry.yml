@@ -1,0 +1,14 @@
+# United States dataset registry
+datasets:
+  - id: us-usaspending-contracts
+    name: USASpending Federal Contracts
+    source_url: https://www.usaspending.gov/download_center/award_data_archive
+    license: public-domain
+    format: csv
+    access_method: bulk-export
+    description: >
+      All federal contract awards including obligated amounts, awarding
+      agencies, recipients, and performance locations.
+    jurisdiction: us
+    update_frequency: monthly
+    last_verified: "2025-01-15"

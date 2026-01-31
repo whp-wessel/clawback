@@ -1,0 +1,51 @@
+# tasks/_templates/ai-task.yml — Template for agent-executable tasks
+# Copy this file to /tasks/ai/{task-id}.yml and fill in the fields.
+
+# Unique identifier: lowercase, hyphens only
+id: ""
+
+# Must be "ai" for agent tasks
+type: ai
+
+# Start as "open"; see tasks/_templates/README.md for lifecycle
+status: open
+
+# What this task aims to accomplish — use signal-framing language
+objective: ""
+
+# ISO 3166 alpha-2 country code, or "eu", "un"
+jurisdiction: ""
+
+# Datasets to use — reference IDs from jurisdiction registry files
+datasets:
+  - registry_id: ""
+    filters: {}
+
+# Required agent capabilities (etl, stats, network-analysis, nlp, viz, geospatial)
+capabilities: []
+
+# Resource constraints for the sandbox
+constraints:
+  max_runtime_minutes: 30
+  max_memory_mb: 2048
+  requires_gpu: false
+
+# Expected output artifacts
+artifacts:
+  - name: ""
+    format: csv
+    description: ""
+
+# How to evaluate the results
+evaluation:
+  criteria: []
+  min_confidence: 0.8
+
+# Task IDs that must complete before this one can start
+depends_on: []
+
+# Set when claimed; leave empty initially
+claimed_by: ""
+
+created_at: ""
+updated_at: ""

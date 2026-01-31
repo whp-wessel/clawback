@@ -1,0 +1,32 @@
+# Realistic example: FOIA request for Amsterdam procurement details
+id: nl-foia-amsterdam-2024
+
+type: human
+
+status: open
+
+objective: >
+  Submit a Woo (Wet open overheid) request to the Municipality of Amsterdam
+  for detailed procurement records in the "IT services" category for fiscal
+  year 2024, including vendor names, contract values, and award justifications.
+  This data is not available through open-data portals and is needed to enrich
+  the procurement splitting analysis (task: nl-procurement-splits).
+
+jurisdiction: nl
+
+human_requirements:
+  action: foia-request
+  deliverable: >
+    Machine-readable export (CSV or JSON) of Amsterdam IT services procurement
+    records for 2024, including: contract_id, vendor_name, award_date,
+    contract_value_eur, category, award_procedure (open/restricted/direct).
+    If the municipality provides PDF scans, manual transcription into CSV
+    is acceptable.
+  deadline: "2025-04-01"
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-15T10:00:00Z"
+updated_at: "2025-01-15T10:00:00Z"

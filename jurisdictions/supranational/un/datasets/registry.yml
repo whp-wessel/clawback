@@ -1,0 +1,27 @@
+# United Nations dataset registry
+datasets:
+  - id: un-ungm-vendors
+    name: UNGM Registered Vendors
+    source_url: https://www.ungm.org/
+    license: public-domain
+    format: api
+    access_method: api
+    description: >
+      Public vendor registration data from the UN Global Marketplace,
+      including registered suppliers and their country of origin.
+    jurisdiction: un
+    update_frequency: daily
+    last_verified: "2025-01-15"
+
+  - id: un-iati-activities
+    name: IATI Activity Data
+    source_url: https://iatiregistry.org/
+    license: CC-BY-4.0
+    format: xml
+    access_method: api
+    description: >
+      Standardized data on international development activities,
+      including funding flows, implementing organizations, and results.
+    jurisdiction: un
+    update_frequency: monthly
+    last_verified: "2025-01-15"

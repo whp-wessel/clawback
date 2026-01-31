@@ -1,0 +1,36 @@
+# tasks/_templates/human-task.yml — Template for human-only unlock tasks
+# Copy this file to /tasks/human/{task-id}.yml and fill in the fields.
+
+# Unique identifier: lowercase, hyphens only
+id: ""
+
+# Must be "human" for human tasks
+type: human
+
+# Start as "open"; see tasks/_templates/README.md for lifecycle
+status: open
+
+# What this task aims to accomplish
+objective: ""
+
+# ISO 3166 alpha-2 country code, or "eu", "un"
+jurisdiction: ""
+
+# What the human needs to do
+human_requirements:
+  # One of: foia-request, manual-label, paywall-access, verification, data-entry
+  action: ""
+  # Clear description of what should be delivered
+  deliverable: ""
+  # Optional deadline
+  deadline: ""
+
+# Which agent tasks does this unlock?
+# List task IDs that have this task in their depends_on
+depends_on: []
+
+# Set when claimed; leave empty initially
+claimed_by: ""
+
+created_at: ""
+updated_at: ""

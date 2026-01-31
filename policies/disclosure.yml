@@ -1,0 +1,35 @@
+# policies/disclosure.yml — "Signals not accusations" language rules
+# Enforced by tools/check-policies.sh and CI
+
+framing: signals-not-accusations
+
+prohibited_unqualified_terms:
+  - fraud
+  - corruption
+  - embezzlement
+  - money laundering
+  - criminal
+  - guilty
+  - illegal
+
+hedge_words:
+  - potential
+  - possible
+  - alleged
+  - signal
+  - anomaly
+  - red flag
+  - warrants further review
+  - inconsistent with
+  - unusual pattern
+
+rules:
+  - Prohibited terms MUST be preceded or followed by a hedge word within the same sentence.
+  - Task objectives and artifact descriptions MUST use signal-framing language.
+  - "This analysis identifies statistical anomalies — not proven wrongdoing."
+    MUST appear (or equivalent) in any published finding.
+
+required_disclaimer: >
+  This analysis identifies statistical anomalies and patterns that may
+  warrant further review. Findings represent signals, not proven wrongdoing.
+  No accusation of fraud, corruption, or illegality is made or implied.

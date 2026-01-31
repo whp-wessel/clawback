@@ -1,0 +1,24 @@
+# policies/reproducibility.yml — Reproducibility requirements
+# Enforced by tools/check-policies.sh and CI
+
+run_receipt:
+  required_fields:
+    - task_id
+    - timestamp
+    - commit_sha
+    - environment
+    - inputs
+    - outputs
+
+  hash_algorithm: sha256
+
+  environment:
+    - Runtime (e.g., python 3.12, R 4.3) MUST be pinned to exact version.
+    - Dependencies MUST be locked (requirements.txt, renv.lock, etc.).
+    - Environment descriptor MUST be included in the run receipt.
+
+rules:
+  - Every PR that adds or modifies analysis results MUST include a run receipt in /runs/.
+  - Input hashes MUST match the datasets referenced in the task spec.
+  - Output hashes MUST match the artifact pointers submitted with the PR.
+  - A maintainer agent (or CI) MUST be able to re-run the pipeline and get identical output hashes.

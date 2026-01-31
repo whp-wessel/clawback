@@ -1,0 +1,27 @@
+# European Union dataset registry
+datasets:
+  - id: eu-ted-contracts
+    name: TED (Tenders Electronic Daily)
+    source_url: https://ted.europa.eu/en/
+    license: CC-BY-4.0
+    format: xml
+    access_method: bulk-export
+    description: >
+      All public procurement notices published in the Official Journal
+      of the EU, covering contracts above EU thresholds from all member states.
+    jurisdiction: eu
+    update_frequency: daily
+    last_verified: "2025-01-15"
+
+  - id: eu-fts
+    name: EU Financial Transparency System
+    source_url: https://ec.europa.eu/budget/financial-transparency-system/
+    license: CC-BY-4.0
+    format: csv
+    access_method: direct-download
+    description: >
+      Detailed data on EU institutional spending including grants,
+      contracts, and operational expenditure.
+    jurisdiction: eu
+    update_frequency: annually
+    last_verified: "2025-01-15"

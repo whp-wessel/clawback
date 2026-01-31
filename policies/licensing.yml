@@ -1,0 +1,19 @@
+# policies/licensing.yml — Dataset licensing rules
+# Enforced by tools/check-policies.sh and CI
+
+output_license: CC-BY-4.0
+
+allowed_input_licenses:
+  - CC0-1.0
+  - CC-BY-4.0
+  - CC-BY-SA-4.0
+  - ODbL-1.0
+  - PDDL-1.0
+  - public-domain
+  - government-open-data    # US, NL, EU open-data portals
+
+rules:
+  - Every dataset entry in a registry MUST include a `license` field.
+  - The license field MUST match one of `allowed_input_licenses`.
+  - All analysis outputs (reports, tables, charts) are released under `output_license`.
+  - Dataset provenance (source URL, access date, version) MUST be recorded in the registry.

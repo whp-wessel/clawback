@@ -1,0 +1,65 @@
+# Realistic example: detect potential procurement splitting in Dutch municipal contracts
+id: nl-procurement-splits
+
+type: ai
+
+status: open
+
+objective: >
+  Analyze Dutch municipal procurement data to identify potential contract-splitting
+  signals — contracts that appear to be artificially divided to stay below mandatory
+  EU tender thresholds (currently EUR 221,000 for general services). Flag clusters
+  of same-vendor, same-category contracts awarded within short time windows that
+  individually fall below the threshold but collectively exceed it.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-tenderned-contracts
+    filters:
+      date_range: "2022-01-01/2024-12-31"
+      entity_type: municipality
+  - registry_id: nl-openspending-municipalities
+    filters:
+      date_range: "2022-01-01/2024-12-31"
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 60
+  max_memory_mb: 4096
+  requires_gpu: false
+
+artifacts:
+  - name: split-signal-candidates
+    format: csv
+    description: >
+      Table of (municipality, vendor, category, time_window, contract_count,
+      total_value, threshold_ratio) for clusters flagged as potential splits.
+  - name: threshold-distribution-chart
+    format: png
+    description: >
+      Histogram of contract values relative to EU threshold, highlighting
+      the just-below-threshold cluster.
+  - name: analysis-summary
+    format: md
+    description: >
+      Narrative summary of methodology, findings, and limitations.
+      Must include required disclaimer per policies/disclosure.yml.
+
+evaluation:
+  criteria:
+    - All flagged clusters must have total value exceeding EUR 221,000
+    - Each individual contract in a cluster must be below EUR 221,000
+    - Time window for clustering must not exceed 12 months
+    - Analysis summary must include required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-15T10:00:00Z"
+updated_at: "2025-01-15T10:00:00Z"

@@ -1,0 +1,36 @@
+# Environment
+.env
+.env.*
+
+# Data files — never commit raw data
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.json.gz
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large files
+*.zip
+*.tar.gz
+*.7z

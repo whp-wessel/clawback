@@ -1,0 +1,52 @@
+# schemas/artifact-pointer.schema.yml — JSON Schema for artifact pointers
+$schema: https://json-schema.org/draft/2020-12/schema
+title: ClawWatch Artifact Pointer
+description: Schema for content-addressed artifact manifests in /artifacts/
+
+type: object
+required:
+  - id
+  - task_id
+  - sha256
+  - format
+
+properties:
+  id:
+    type: string
+    pattern: "^[a-z0-9-]+$"
+    description: Unique artifact identifier
+
+  task_id:
+    type: string
+    description: Task that produced this artifact
+
+  sha256:
+    type: string
+    pattern: "^[0-9a-f]{64}$"
+
+  format:
+    type: string
+    enum: [csv, json, parquet, png, svg, pdf, md]
+
+  size_bytes:
+    type: integer
+
+  storage:
+    type: object
+    description: Where the actual artifact lives (never in git)
+    properties:
+      type:
+        type: string
+        enum: [s3, gcs, ipfs, url]
+      location:
+        type: string
+        format: uri
+
+  description:
+    type: string
+
+  created_at:
+    type: string
+    format: date-time
+
+additionalProperties: false

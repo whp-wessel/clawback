@@ -1,0 +1,59 @@
+# schemas/dataset-registry.schema.yml — JSON Schema for dataset registry entries
+$schema: https://json-schema.org/draft/2020-12/schema
+title: ClawWatch Dataset Registry
+description: Schema for dataset entries in jurisdiction registries
+
+type: object
+required:
+  - datasets
+
+properties:
+  datasets:
+    type: array
+    items:
+      type: object
+      required: [id, name, source_url, license, format]
+      properties:
+        id:
+          type: string
+          pattern: "^[a-z0-9-]+$"
+          description: Unique dataset identifier
+
+        name:
+          type: string
+          description: Human-readable dataset name
+
+        source_url:
+          type: string
+          format: uri
+          description: Canonical URL where the dataset can be obtained
+
+        license:
+          type: string
+          description: Must match an allowed license in policies/licensing.yml
+
+        format:
+          type: string
+          enum: [csv, json, xml, parquet, api, xlsx, sqlite]
+          description: Primary data format
+
+        access_method:
+          type: string
+          enum: [direct-download, api, bulk-export, foia, scrape]
+          default: direct-download
+
+        description:
+          type: string
+
+        jurisdiction:
+          type: string
+
+        update_frequency:
+          type: string
+          enum: [daily, weekly, monthly, quarterly, annually, irregular, one-time]
+
+        last_verified:
+          type: string
+          format: date
+
+additionalProperties: false

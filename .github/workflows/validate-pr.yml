@@ -1,0 +1,52 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+          pip install yamllint jsonschema
+
+      - name: YAML lint
+        run: |
+          yamllint -d "{extends: relaxed, rules: {line-length: {max: 200}}}" \
+            tasks/ jurisdictions/ schemas/ policies/ runs/ artifacts/
+
+      - name: Validate task specs
+        run: |
+          for f in $(find tasks/ai tasks/human -name "*.yml" ! -path "*/_templates/*"); do
+            echo "Validating $f..."
+            bash tools/validate-task.sh "$f"
+          done
+
+      - name: Validate run receipts
+        run: |
+          for f in $(find runs -name "*.yml" ! -name "README.md"); do
+            echo "Validating $f..."
+            bash tools/validate-receipt.sh "$f"
+          done
+
+      - name: Policy checks
+        run: bash tools/check-policies.sh .
+
+      - name: No raw data in tracked dirs
+        run: |
+          VIOLATIONS=$(find artifacts/ runs/ -type f \( -name "*.csv" -o -name "*.parquet" -o -name "*.xlsx" -o -name "*.json.gz" -o -name "*.sqlite" \) || true)
+          if [ -n "$VIOLATIONS" ]; then
+            echo "ERROR: Raw data files found in tracked directories:"
+            echo "$VIOLATIONS"
+            exit 1
+          fi
+          echo "No raw data files found."
