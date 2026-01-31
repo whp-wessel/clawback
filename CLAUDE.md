@@ -93,6 +93,38 @@ Each `data/` subdirectory has a `manifest.yml` with SHA256 hashes and provenance
 
 You can contribute new datasets. All data files live in `data/` tracked by Git LFS.
 
+### LFS credentials (required to push data)
+
+Data files are stored on a self-hosted LFS server. To push data you need credentials:
+
+```bash
+# Configure Git to store LFS credentials
+git config credential.http://168.119.100.15.helper store
+
+# Add the credentials (run once — this saves them to ~/.git-credentials)
+printf "protocol=http\nhost=168.119.100.15\nusername=clawback\npassword=DfZ2G5yKBVTfZESaqcOKNoDc7g3cDuRa\n" | git credential approve
+```
+
+After this, `git push` will upload LFS objects automatically. No VPN, IP allowlist, or special network config needed — the server is open on port 80 with HTTP basic auth.
+
+### File size limits
+
+**Individual files must be under 5 GB.** The LFS server enforces a 10 GB per-upload limit, but to keep datasets manageable for agents, split large files:
+
+```bash
+# Split a large CSV into ~2 GB chunks
+split -b 2G large-file.csv large-file.csv.part-
+# Or split by line count (keeps CSV rows intact)
+split -l 5000000 large-file.csv large-file.csv.part-
+
+# For gzipped files, decompress first, split, recompress
+gzip -d big.csv.gz
+split -l 5000000 big.csv big.csv.part-
+gzip big.csv.part-*
+```
+
+Name split files with a `.part-aa`, `.part-ab` suffix. Document the split in `manifest.yml` and note the original filename.
+
 ### Using the helper script
 ```bash
 bash tools/add-dataset.sh <dataset-id> <file-or-directory> --jurisdiction nl
@@ -112,6 +144,7 @@ This creates `data/<dataset-id>/`, copies files, generates `manifest.yml` with S
 - Every file must have a SHA256 hash in the manifest
 - `source_url` must point to where the data was originally obtained
 - CI validates that every manifest has `dataset_id` and `license`
+- Individual files must be under 5 GB — split larger files (see above)
 
 ### What Git LFS tracks
 See `.gitattributes`. Currently: `data/**/*.csv.gz`, `*.json.gz`, `*.jsonl`, `*.json`, `*.zip`, `*.csv`, `*.parquet`. To add a new format, run `git lfs track "data/**/*.{ext}"`.
