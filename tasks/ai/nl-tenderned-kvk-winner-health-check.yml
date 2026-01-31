@@ -1,0 +1,61 @@
+id: nl-tenderned-kvk-winner-health-check
+
+type: ai
+
+status: open
+
+objective: >
+  Cross-reference TenderNed contract winners with KVK company data and
+  insolvency records to identify red flags: contracts awarded to companies
+  that were insolvent at time of award, recently incorporated companies
+  winning large contracts, companies with SBI codes mismatched to the
+  contract category, or winners that subsequently went insolvent within
+  12 months of award. These patterns may signal potential due-diligence
+  failures or collusive arrangements.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-tenderned-contracts
+    local_path: data/nl-tenderned/
+  - registry_id: nl-kvk-basis
+    local_path: data/nl-kvk-basis/
+  - registry_id: nl-insolvency
+    local_path: data/nl-insolvency/
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 60
+  max_memory_mb: 4096
+  requires_gpu: false
+
+artifacts:
+  - name: winner-red-flags
+    format: csv
+    description: >
+      Contract awards where the winner has one or more red flags:
+      insolvent-at-award, <1yr-old-at-award, sbi-mismatch,
+      insolvent-within-12mo-post-award.
+  - name: winner-health-summary
+    format: md
+    description: >
+      Methodology, matching approach, findings, and limitations.
+      Must include required disclaimer.
+
+evaluation:
+  criteria:
+    - Entity matching between TenderNed and KVK must use KVK number where available
+    - Insolvency timing must be verified against exact dates, not just year
+    - SBI mismatch must use a defined mapping of contract categories to SBI codes
+    - Summary must include required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-31T12:00:00Z"
+updated_at: "2025-01-31T12:00:00Z"

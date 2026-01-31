@@ -1,0 +1,60 @@
+id: nl-healthcare-digimv-governance-anomalies
+
+type: ai
+
+status: open
+
+objective: >
+  Compare DigiMV healthcare governance data between 2023 and 2024 to
+  identify institutions with significant year-over-year changes in
+  governance indicators — sudden board turnover, missing financial
+  disclosures, or large unexplained revenue shifts. Cross-reference
+  flagged institutions with the zorgaanbieders registry to verify
+  registration status. Sudden governance deterioration may signal
+  potential mismanagement or financial distress.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-digimv-2023
+    local_path: data/nl-digimv-2023/
+  - registry_id: nl-digimv-2024
+    local_path: data/nl-digimv-2024/
+  - registry_id: nl-zorgaanbieders
+    local_path: data/nl-zorgaanbieders/
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 45
+  max_memory_mb: 2048
+  requires_gpu: false
+
+artifacts:
+  - name: governance-change-flags
+    format: csv
+    description: >
+      Institutions with significant year-over-year governance changes,
+      including board composition changes, missing disclosures, and
+      revenue anomalies.
+  - name: governance-analysis-summary
+    format: md
+    description: >
+      Methodology, findings, limitations. Must include required disclaimer.
+
+evaluation:
+  criteria:
+    - Year-over-year comparison must use matching institution identifiers
+    - "Significant change" thresholds must be defined and justified
+    - Flagged institutions must be verified against zorgaanbieders registry
+    - Summary must include required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-31T12:00:00Z"
+updated_at: "2025-01-31T12:00:00Z"

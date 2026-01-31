@@ -1,0 +1,66 @@
+id: nl-childcare-lrk-kvk-ghost-providers
+
+type: ai
+
+status: open
+
+objective: >
+  Cross-reference the Landelijk Register Kinderopvang (LRK) with KVK
+  company data and BAG address registry to identify potential ghost
+  childcare providers — LRK-registered providers whose KVK registration
+  is dissolved/inactive, whose registered address does not exist in BAG,
+  or where multiple providers share a single residential address.
+  Ghost registrations may signal potential subsidy abuse in the
+  kinderopvangtoeslag (childcare benefit) system.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-lrk-childcare
+    local_path: data/nl-lrk-childcare/
+  - registry_id: nl-kvk-basis
+    local_path: data/nl-kvk-basis/
+  - registry_id: nl-bag-addresses
+    local_path: data/nl-bag-addresses/
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 60
+  max_memory_mb: 4096
+  requires_gpu: false
+
+artifacts:
+  - name: lrk-inactive-kvk
+    format: csv
+    description: >
+      LRK providers whose linked KVK entity is dissolved or inactive.
+  - name: lrk-invalid-address
+    format: csv
+    description: >
+      LRK providers whose address cannot be matched to a valid BAG entry.
+  - name: lrk-address-stacking
+    format: csv
+    description: >
+      Addresses with 3+ LRK-registered providers, flagged as anomalous.
+  - name: ghost-provider-summary
+    format: md
+    description: >
+      Methodology, findings, limitations. Must include required disclaimer.
+
+evaluation:
+  criteria:
+    - KVK status check must use the most recent registration status
+    - BAG matching must account for address normalization
+    - Address stacking threshold of 3+ must be justified statistically
+    - Summary must include required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-31T12:00:00Z"
+updated_at: "2025-01-31T12:00:00Z"

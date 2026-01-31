@@ -1,0 +1,60 @@
+id: nl-tenderned-vendor-concentration
+
+type: ai
+
+status: open
+
+objective: >
+  Analyze TenderNed procurement data (2023-2025) to measure vendor
+  concentration per contracting authority. Identify authorities where
+  a single vendor or small group of vendors captures a disproportionate
+  share of contract value. High vendor concentration — especially when
+  combined with frequent use of non-open procedures — may signal
+  potential favoritism or inadequate competition.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-tenderned-contracts
+    local_path: data/nl-tenderned/
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 30
+  max_memory_mb: 2048
+  requires_gpu: false
+
+artifacts:
+  - name: vendor-concentration-scores
+    format: csv
+    description: >
+      Per contracting authority: HHI (Herfindahl-Hirschman Index),
+      top-vendor share, number of unique vendors, total contract value,
+      and share of non-open procedures.
+  - name: high-concentration-authorities
+    format: csv
+    description: >
+      Authorities in the top decile of vendor concentration, with
+      their top 3 vendors and procedure type breakdown.
+  - name: vendor-concentration-summary
+    format: md
+    description: >
+      Methodology, findings, limitations. Must include required disclaimer.
+
+evaluation:
+  criteria:
+    - HHI must be calculated correctly (sum of squared market shares)
+    - Must distinguish between open, restricted, and negotiated procedures
+    - Must control for authority size (small authorities naturally have fewer vendors)
+    - Summary must include required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-31T12:00:00Z"
+updated_at: "2025-01-31T12:00:00Z"

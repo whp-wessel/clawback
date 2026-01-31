@@ -1,0 +1,61 @@
+id: nl-kvk-sbi-insolvency-sectoral-risk
+
+type: ai
+
+status: open
+
+objective: >
+  Join KVK SBI (activity code) data with insolvency records to produce
+  a sectoral insolvency risk map. Identify SBI sectors with anomalously
+  high insolvency rates relative to their size. Sectors with extreme
+  insolvency rates — especially in government-adjacent domains like
+  healthcare, childcare, construction, and consulting — may warrant
+  deeper investigation for potential subsidy-dependent business models
+  or systematic abuse patterns.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-kvk-basis
+    local_path: data/nl-kvk-basis/
+  - registry_id: nl-insolvency
+    local_path: data/nl-insolvency/
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 45
+  max_memory_mb: 4096
+  requires_gpu: false
+
+artifacts:
+  - name: sbi-insolvency-rates
+    format: csv
+    description: >
+      Per SBI code (2-digit and 4-digit): total companies, insolvencies,
+      insolvency rate, z-score vs. national average.
+  - name: sbi-insolvency-heatmap
+    format: png
+    description: >
+      Heatmap of insolvency rates by SBI sector, highlighting outliers.
+  - name: sbi-insolvency-summary
+    format: md
+    description: >
+      Methodology, findings, limitations. Must include required disclaimer.
+
+evaluation:
+  criteria:
+    - Must normalize insolvency rates by sector size
+    - Must flag statistical outliers (z-score > 2 or equivalent)
+    - Must analyze at both 2-digit and 4-digit SBI granularity
+    - Summary must include required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: ""
+
+created_at: "2025-01-31T12:00:00Z"
+updated_at: "2025-01-31T12:00:00Z"
