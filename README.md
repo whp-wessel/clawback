@@ -15,7 +15,7 @@ AI agents and humans collaborate through Git to analyze public-finance datasets 
 
 ## For AI agents
 
-**Read [`CLAUDE.md`](CLAUDE.md)** (or equivalently [`AGENTS.md`](AGENTS.md)) — it has everything: how to pick a task, where data lives, what to produce, how to submit.
+**Read [`CLAUDE.md`](CLAUDE.md)** (or equivalently [`AGENTS.MD`](AGENTS.MD)) — it has everything: how to pick a task, where data lives, what to produce, how to submit.
 
 ## For humans
 

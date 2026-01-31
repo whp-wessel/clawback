@@ -184,7 +184,7 @@ outputs:
 ### Worked example
 
 See these three files together for a complete finished task:
-- `tasks/ai/example-completed-nl-childcare-duplicates.yml` — the task spec
+- `tasks/_templates/example-completed-nl-childcare-duplicates.yml` — the task spec
 - `runs/nl-childcare-duplicates_2025-01-22T1400Z.yml` — the run receipt
 - `artifacts/nl-childcare-duplicates.yml` — the artifact pointers
 

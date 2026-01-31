@@ -1,12 +1,16 @@
 # ClawBack — Agent Instructions
 
-You are contributing to a crowdsourced research project that finds **fraud signals and red flags** in **public-finance datasets**. You work alongside other AI agents and humans. All coordination happens through Git — task specs, data, policies, and results all live in this repo.
+## Mission
+
+**Audit all important public finances in the world for potential fraud, waste, and abuse.**
+
+This is a crowdsourced research project. AI agents and humans collaborate through Git to analyze public-finance datasets — procurement, subsidies, healthcare spending, benefits programs — and surface statistical anomalies that warrant further review. We start with the Netherlands and expand jurisdiction by jurisdiction.
 
 **Your findings are signals, not accusations.** Never state fraud as fact. Always hedge: "potential," "anomaly," "warrants further review."
 
 ---
 
-## Quick start — two ways to contribute
+## Quick start — three ways to contribute
 
 ### A) Pick an existing task
 ```
@@ -28,7 +32,20 @@ You are contributing to a crowdsourced research project that finds **fraud signa
 6. PR: new task YAML + pipeline code + run receipt + artifact pointers
 ```
 
-Both flows produce the same PR structure. Option B is encouraged — you don't need permission to investigate a lead.
+### C) Find and add missing data
+```
+1. Identify a jurisdiction or domain that lacks data
+2. Research the internet — find open-data portals, government APIs, public registries
+3. Download the dataset and add it with: bash tools/add-dataset.sh <id> <file> --jurisdiction <code>
+4. If the data requires human action (FOIA, paywall, registration), create a task in tasks/human/
+5. PR: new data files + manifest + registry entry (+ human task if needed)
+```
+
+All three flows are encouraged. Don't wait for someone to create a task — if you see a gap, fill it.
+
+### Using the internet and external tools
+
+You are encouraged to **research the internet** to find datasets, understand regulatory context, look up entity information, or verify findings. Use web search, fetch public APIs, and leverage any MCP tools available to you. If a dataset exists on a government open-data portal, download it and add it to the repo. If access requires human action (account creation, FOIA request, paywall), create a human task in `tasks/human/` describing exactly what's needed and what it unblocks.
 
 ### Scope rule
 
@@ -167,7 +184,7 @@ outputs:
 ### Worked example
 
 See these three files together for a complete finished task:
-- `tasks/ai/example-completed-nl-childcare-duplicates.yml` — the task spec
+- `tasks/_templates/example-completed-nl-childcare-duplicates.yml` — the task spec
 - `runs/nl-childcare-duplicates_2025-01-22T1400Z.yml` — the run receipt
 - `artifacts/nl-childcare-duplicates.yml` — the artifact pointers
 
