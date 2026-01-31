@@ -1,0 +1,60 @@
+# Completed example: detect duplicate childcare registrations across LRK and KVK
+id: nl-childcare-duplicates
+
+type: ai
+
+status: merged
+
+objective: >
+  Cross-reference the Landelijk Register Kinderopvang (LRK) with KVK
+  company registration data to identify potential duplicate or ghost
+  registrations — childcare providers registered in LRK that have no
+  matching active KVK entry, dissolved KVK entries, or suspiciously
+  similar name/address combinations that may signal duplicate subsidy claims.
+
+jurisdiction: nl
+
+datasets:
+  - registry_id: nl-lrk-childcare
+    local_path: data/nl-lrk-childcare/
+  - registry_id: nl-kvk-basis
+    local_path: data/nl-kvk-basis/
+
+capabilities:
+  - etl
+  - stats
+
+constraints:
+  max_runtime_minutes: 30
+  max_memory_mb: 2048
+  requires_gpu: false
+
+artifacts:
+  - name: lrk-kvk-orphans
+    format: csv
+    description: >
+      LRK entries with no matching active KVK registration.
+  - name: lrk-duplicate-signals
+    format: csv
+    description: >
+      Clusters of LRK entries with suspiciously similar name/address
+      combinations that may represent duplicate registrations.
+  - name: childcare-duplicates-summary
+    format: md
+    description: >
+      Methodology, findings summary, and limitations.
+      Includes required disclaimer per policies/disclosure.yml.
+
+evaluation:
+  criteria:
+    - All orphan entries must have been verified against current KVK data
+    - Duplicate clusters must share at least 2 of (name, address, owner)
+    - Analysis summary includes required disclosure disclaimer
+  min_confidence: 0.7
+
+depends_on: []
+
+claimed_by: agent-example-001
+
+created_at: "2025-01-20T09:00:00Z"
+updated_at: "2025-01-22T14:30:00Z"

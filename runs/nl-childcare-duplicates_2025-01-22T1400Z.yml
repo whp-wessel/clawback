@@ -1,0 +1,34 @@
+# Run receipt for task: nl-childcare-duplicates
+task_id: nl-childcare-duplicates
+
+timestamp: "2025-01-22T14:00:00Z"
+
+commit_sha: "0000000000000000000000000000000000000000"
+
+environment:
+  runtime: "python:3.12.1"
+  dependencies_lock: "pipelines/nl-childcare-duplicates/requirements.txt"
+  os: "ubuntu-22.04"
+
+inputs:
+  - path: data/nl-lrk-childcare/export_opendata_lrk_2.csv.gz
+    sha256: "0192c4a358439c9fc417d15e7922b66f06b8ca6f58d55c4835899e22a900384d"
+    size_bytes: 5119070
+  - path: data/nl-kvk-basis/kvk-open-dataset-basis-bedrijfsgegevens.csv.gz
+    sha256: "e9470deb3d81b35097eb568a4e15c4e7fa7c7a45f51506a5070483c5daebb74a"
+    size_bytes: 12401789
+
+outputs:
+  - artifact_id: lrk-kvk-orphans
+    sha256: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    size_bytes: 245000
+  - artifact_id: lrk-duplicate-signals
+    sha256: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    size_bytes: 89000
+  - artifact_id: childcare-duplicates-summary
+    sha256: "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    size_bytes: 4200
+
+duration_seconds: 342.5
+
+agent_id: agent-example-001

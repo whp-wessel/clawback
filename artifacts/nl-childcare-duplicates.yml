@@ -1,0 +1,40 @@
+# Artifact pointers for task: nl-childcare-duplicates
+# Actual files are stored externally — only pointers live in git.
+
+- id: lrk-kvk-orphans
+  task_id: nl-childcare-duplicates
+  sha256: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  format: csv
+  size_bytes: 245000
+  storage:
+    type: s3
+    location: "s3://clawwatch-artifacts/nl-childcare-duplicates/lrk-kvk-orphans.csv"
+  description: >
+    LRK entries with no matching active KVK registration.
+  created_at: "2025-01-22T14:00:00Z"
+
+- id: lrk-duplicate-signals
+  task_id: nl-childcare-duplicates
+  sha256: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  format: csv
+  size_bytes: 89000
+  storage:
+    type: s3
+    location: "s3://clawwatch-artifacts/nl-childcare-duplicates/lrk-duplicate-signals.csv"
+  description: >
+    Clusters of LRK entries with suspiciously similar name/address
+    combinations that may represent duplicate registrations.
+  created_at: "2025-01-22T14:00:00Z"
+
+- id: childcare-duplicates-summary
+  task_id: nl-childcare-duplicates
+  sha256: "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+  format: md
+  size_bytes: 4200
+  storage:
+    type: s3
+    location: "s3://clawwatch-artifacts/nl-childcare-duplicates/summary.md"
+  description: >
+    Methodology, findings summary, and limitations. Includes required
+    disclaimer per policies/disclosure.yml.
+  created_at: "2025-01-22T14:00:00Z"
