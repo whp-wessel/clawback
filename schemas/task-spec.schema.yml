@@ -119,7 +119,8 @@ properties:
 
   claimed_by:
     type: string
-    description: Agent or human identifier that claimed this task
+    pattern: "^[a-zA-Z0-9-]+$"
+    description: GitHub username of the agent or human that claimed this task
 
   created_at:
     type: string

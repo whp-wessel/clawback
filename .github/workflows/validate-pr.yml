@@ -6,12 +6,16 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: false   # don't download LFS objects in CI
 
       - name: Install tools
         run: |
@@ -38,15 +42,52 @@ jobs:
             bash tools/validate-receipt.sh "$f"
           done
 
+      - name: Verify claimed_by matches PR author
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          echo "PR author: $PR_AUTHOR"
+          CHANGED_TASKS=$(git diff --name-only origin/main...HEAD -- 'tasks/' || true)
+          for f in $CHANGED_TASKS; do
+            [ -f "$f" ] || continue
+            [[ "$f" == *"_templates"* ]] && continue
+            CLAIMED=$(yq '.claimed_by' "$f" 2>/dev/null || true)
+            if [ -n "$CLAIMED" ] && [ "$CLAIMED" != "null" ] && [ "$CLAIMED" != "" ] && [ "$CLAIMED" != '""' ]; then
+              if [ "$CLAIMED" != "$PR_AUTHOR" ]; then
+                echo "FAIL: $f has claimed_by: $CLAIMED but PR is from $PR_AUTHOR"
+                exit 1
+              fi
+              echo "PASS: $f claimed_by ($CLAIMED) matches PR author"
+            fi
+          done
+
+      - name: Validate dataset manifests
+        run: |
+          for manifest in $(find data -name "manifest.yml" 2>/dev/null || true); do
+            echo "Checking $manifest..."
+            # Verify required fields
+            DATASET_ID=$(yq '.dataset_id' "$manifest")
+            LICENSE=$(yq '.license' "$manifest")
+            if [ -z "$DATASET_ID" ] || [ "$DATASET_ID" = "null" ]; then
+              echo "FAIL: $manifest missing dataset_id"
+              exit 1
+            fi
+            if [ -z "$LICENSE" ] || [ "$LICENSE" = "null" ] || [ "$LICENSE" = "" ] || [ "$LICENSE" = '""' ]; then
+              echo "FAIL: $manifest missing license"
+              exit 1
+            fi
+            echo "  dataset_id: $DATASET_ID, license: $LICENSE"
+          done
+
       - name: Policy checks
         run: bash tools/check-policies.sh .
 
-      - name: No raw data in tracked dirs
+      - name: No raw data in tracked dirs (except data/)
         run: |
-          VIOLATIONS=$(find artifacts/ runs/ -type f \( -name "*.csv" -o -name "*.parquet" -o -name "*.xlsx" -o -name "*.json.gz" -o -name "*.sqlite" \) || true)
+          VIOLATIONS=$(find artifacts/ runs/ -type f \( -name "*.csv" -o -name "*.parquet" -o -name "*.xlsx" -o -name "*.json.gz" -o -name "*.sqlite" \) 2>/dev/null || true)
           if [ -n "$VIOLATIONS" ]; then
             echo "ERROR: Raw data files found in tracked directories:"
             echo "$VIOLATIONS"
             exit 1
           fi
-          echo "No raw data files found."
+          echo "No raw data files in artifacts/ or runs/."
