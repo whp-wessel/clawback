@@ -1,0 +1,21 @@
+# DigiMV 2023 — Healthcare Governance Data
+dataset_id: nl-digimv-2023
+name: DigiMV 2023 Healthcare Governance Questionnaire
+description: >
+  Annual governance and organizational data from Dutch healthcare
+  institutions, collected via the DigiMV questionnaire (2023 edition).
+source_url: https://www.jaarverantwoordingzorg.nl/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: DigiMV2023_MultipleTables_20241001_0927.csv.gz
+    sha256: 69617797ad691a994c399edd0d47719090d9a239b77215b756e3e3a87807ae4b
+    size_bytes: 8193495
+    description: Multi-table export of DigiMV 2023 responses
+
+  - name: DigiMV2023_MultipleTables_20241001_0927_VariableDefinition.csv.gz
+    sha256: 728c40e2b00c4a398a15991e153f7a5685748a54fbc05a80f3c08e234785a31d
+    size_bytes: 113323
+    description: Variable definitions and codebook for the 2023 data

@@ -45,6 +45,9 @@ properties:
         registry_id:
           type: string
           description: ID from a jurisdiction dataset registry
+        local_path:
+          type: string
+          description: Path relative to repo root where data files live (overrides registry lookup)
         filters:
           type: object
           description: Optional filters (date range, entity, etc.)

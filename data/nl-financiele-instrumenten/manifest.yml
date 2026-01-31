@@ -1,0 +1,16 @@
+# Financial Instruments 2017-2024
+dataset_id: nl-financiele-instrumenten
+name: Dutch Financial Instruments Overview 2017-2024
+description: >
+  Overview of financial instruments (subsidies, grants, tax expenditures)
+  from Dutch government, covering 2017-2024.
+source_url: https://www.rijksfinancien.nl/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: Financiele_instrumenten_2017-2024.csv.gz
+    sha256: 98435199c075c4b3a53a7da104737ffdd19f3d504f40eb8770ce38be6732e6f8
+    size_bytes: 5381438
+    description: Financial instruments data covering 2017-2024

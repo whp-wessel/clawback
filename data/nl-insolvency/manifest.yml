@@ -1,0 +1,26 @@
+# Centraal Insolventieregister
+dataset_id: nl-insolvency
+name: Centraal Insolventieregister (Central Insolvency Register)
+description: >
+  Public insolvency records from the Dutch Central Insolvency Register,
+  covering the last 5 years of bankruptcy and debt restructuring cases.
+source_url: https://insolventies.rechtspraak.nl/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: Centraal Insolventieregister_full_last_5_years_insolvencies.jsonl
+    sha256: 99387b4d7b1c632f79a824f23d8c6dfaaeb1212050b04b364715aa1f8c8fbba8
+    size_bytes: 37229970
+    description: Full insolvency records for the last 5 years (JSONL format)
+
+  - name: Centraal Insolventieregister_publicatiekenmerken.json
+    sha256: f0758abe8588cb2224982fa136aa8e465ba3261ee864de88c32721bc876b6aec
+    size_bytes: 523668
+    description: Publication characteristics metadata
+
+  - name: Centraal Insolventieregister_publicatiekenmerken.json.gz
+    sha256: d0982cff1afd5f006b965ca06deef5350ab949175f4ef47f1aa2a31ff2d000d2
+    size_bytes: 76254
+    description: Compressed publication characteristics metadata

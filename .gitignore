@@ -2,7 +2,8 @@
 .env
 .env.*
 
-# Data files — never commit raw data
+# Data files — never commit raw data outside /data/
+# Files in /data/ are tracked by Git LFS (see .gitattributes)
 *.csv
 *.parquet
 *.xlsx
@@ -10,6 +11,7 @@
 *.json.gz
 *.sqlite
 *.db
+!data/**
 
 # Python
 __pycache__/

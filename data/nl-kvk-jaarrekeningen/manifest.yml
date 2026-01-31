@@ -1,0 +1,31 @@
+# KVK Open Dataset — Jaarrekeningen (Annual Financial Statements)
+dataset_id: nl-kvk-jaarrekeningen
+name: KVK Annual Financial Statements
+description: >
+  Annual financial statements (jaarrekeningen) filed with the Dutch
+  Chamber of Commerce. Split across 5 archive files.
+source_url: https://www.kvk.nl/over-kvk/open-data/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: kvk-open-data-set-jaarrekeningen0.zip
+    sha256: c809e00ae8a1d262b79ff845e05abf70d71f5a8449689e4d57949fb75cd62a5e
+    size_bytes: 200000132
+
+  - name: kvk-open-data-set-jaarrekeningen1.zip
+    sha256: e768858d93dd65e9eaa7766ddb4ca7786d2efc817ab754b4b2a24b32a55d2af2
+    size_bytes: 200000323
+
+  - name: kvk-open-data-set-jaarrekeningen2.zip
+    sha256: c4ceb5169516f653da02f534246d5d1f8abbfef966ea2c98d8c23f208ead559a
+    size_bytes: 200000510
+
+  - name: kvk-open-data-set-jaarrekeningen3.zip
+    sha256: fd90e6933cad4708d4533dfb83dc9734ef465a4c1e42050868bcda6d2e7ad971
+    size_bytes: 200000610
+
+  - name: kvk-open-data-set-jaarrekeningen4.zip
+    sha256: 92c2730cdbc46a46f7e54bd236aecd0eb3fd4516515afda1a43fe1461a9708b8
+    size_bytes: 162457158

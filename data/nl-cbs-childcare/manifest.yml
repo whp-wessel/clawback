@@ -1,0 +1,16 @@
+# CBS Formal Childcare Statistics
+dataset_id: nl-cbs-childcare
+name: CBS Formal Childcare Statistics
+description: >
+  Statistics on formal childcare usage in the Netherlands from
+  CBS (Centraal Bureau voor de Statistiek).
+source_url: https://opendata.cbs.nl/
+license: CC-BY-4.0
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: CBS_Formal_Childcare_Stats_20214NED.csv.gz
+    sha256: ed0f3ef343c55f3899ae3150d985fa7f2216c797c3b38eda43e53e8011ad704e
+    size_bytes: 618636
+    description: Formal childcare statistics table 20214NED

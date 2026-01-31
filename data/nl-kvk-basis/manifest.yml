@@ -1,0 +1,21 @@
+# KVK Open Dataset — Basis Bedrijfsgegevens + SBI Codes
+dataset_id: nl-kvk-basis
+name: KVK Company Register (Basic Data) + SBI Classification
+description: >
+  Basic company registration data from the Dutch Chamber of Commerce (KVK)
+  open dataset, plus the SBI (Standaard Bedrijfsindeling) activity codes.
+source_url: https://www.kvk.nl/over-kvk/open-data/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: kvk-open-dataset-basis-bedrijfsgegevens.csv.gz
+    sha256: e9470deb3d81b35097eb568a4e15c4e7fa7c7a45f51506a5070483c5daebb74a
+    size_bytes: 12401789
+    description: Basic company data — KVK number, name, address, legal form, status
+
+  - name: PRD_202509060433_VerwerkingSBI_EXT_V2.csv.gz
+    sha256: 3995fe54e2459e90a2c7e8639ce9c8f2bb90ee8364f96bf184d2d1683b4251cc
+    size_bytes: 87320265
+    description: SBI activity code classifications for all registered companies

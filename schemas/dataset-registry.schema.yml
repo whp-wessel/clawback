@@ -37,6 +37,10 @@ properties:
           enum: [csv, json, xml, parquet, api, xlsx, sqlite]
           description: Primary data format
 
+        local_path:
+          type: string
+          description: Path relative to repo root where the data files live (e.g., data/nl-tenderned/)
+
         access_method:
           type: string
           enum: [direct-download, api, bulk-export, foia, scrape]

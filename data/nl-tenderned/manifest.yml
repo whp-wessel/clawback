@@ -1,0 +1,26 @@
+# TenderNed Public Procurement Notices
+dataset_id: nl-tenderned-contracts
+name: TenderNed Public Contracts
+description: >
+  Dutch public procurement announcements exported from TenderNed,
+  covering tender notices, contract awards, and modifications.
+source_url: https://www.tenderned.nl/aankondigingen/overzicht
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: Dataset_Tenderned-2023-01-01-2023-12-31.json.gz
+    sha256: 7424e595ddf33120ddb7067d76772a64460d7889d8e8770220a01d6a4d4e460e
+    size_bytes: 12301373
+    description: All TenderNed notices for calendar year 2023
+
+  - name: Dataset_Tenderned-2024-01-01-2024-12-31.json.gz
+    sha256: 9da496e825725c9a346bd68f44dddcdd0a1bc16bd2a68d0c4341e84d3066efc1
+    size_bytes: 14432872
+    description: All TenderNed notices for calendar year 2024
+
+  - name: Dataset_Tenderned-2025-01-01-2025-09-30.json.gz
+    sha256: 46670236f1fc071ec71b30d29aad8273f3b519583a9d6f26c7acee0a7f8be840
+    size_bytes: 11003046
+    description: TenderNed notices for Jan-Sep 2025

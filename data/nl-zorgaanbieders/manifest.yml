@@ -1,0 +1,26 @@
+# Dutch Healthcare Providers (Zorgaanbieders)
+dataset_id: nl-zorgaanbieders
+name: Dutch Healthcare Provider Registry
+description: >
+  Registry of healthcare providers (zorgaanbieders) in the Netherlands,
+  with provider type classifications.
+source_url: https://www.zorgaanbiedersportaal.nl/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: nl_zorgaanbieders_4digit_only.csv.gz
+    sha256: 9bdb7bc54d67a778585e5973d988dee541801a0c1412dd7bf0bda72661c3c65a
+    size_bytes: 3624224
+    description: Healthcare providers with 4-digit postal code granularity
+
+  - name: nl_zorgaanbieders_complete.csv.gz
+    sha256: 718329809611ddeea4a2b7665caaacb4b1553712860a4ff35e8e66faf32c7d21
+    size_bytes: 166
+    description: Complete healthcare provider listing
+
+  - name: nl_zorgaanbieders_full.csv.gz
+    sha256: ab12349e5f998393ce861f3caf9688bd24a7d84035a0d227dfc38100ead57def
+    size_bytes: 134
+    description: Full healthcare provider dataset

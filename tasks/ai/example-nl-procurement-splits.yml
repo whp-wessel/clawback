@@ -16,6 +16,7 @@ jurisdiction: nl
 
 datasets:
   - registry_id: nl-tenderned-contracts
+    local_path: data/nl-tenderned/
     filters:
       date_range: "2022-01-01/2024-12-31"
       entity_type: municipality

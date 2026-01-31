@@ -1,0 +1,16 @@
+# BAG — Basisregistratie Adressen en Gebouwen
+dataset_id: nl-bag-addresses
+name: BAG National Address and Building Registry
+description: >
+  Full extract of the Dutch Basisregistratie Adressen en Gebouwen (BAG),
+  containing all addresses and buildings in the Netherlands.
+source_url: https://www.kadaster.nl/zakelijk/producten/adressen-en-gebouwen/bag-2.0-extract
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: lvbag-extract-nl.zip
+    sha256: ed83bf05d80e4abae9bc9c087707a589d814e869553c271940755289f2931f21
+    size_bytes: 3534711392
+    description: Full BAG 2.0 extract for the Netherlands (3.3 GB compressed)

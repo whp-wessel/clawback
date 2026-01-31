@@ -4,14 +4,16 @@ datasets:
     name: TenderNed Public Contracts
     source_url: https://www.tenderned.nl/aankondigingen/overzicht
     license: government-open-data
-    format: api
-    access_method: api
+    format: json
+    access_method: bulk-export
+    local_path: data/nl-tenderned/
     description: >
       All public procurement announcements published on TenderNed,
       including contract awards, tender notices, and modifications.
+      Local files cover 2023, 2024, and Jan-Sep 2025.
     jurisdiction: nl
     update_frequency: daily
-    last_verified: "2025-01-15"
+    last_verified: "2025-01-30"
 
   - id: nl-openspending-municipalities
     name: Open Spending NL — Municipal Expenditure
@@ -21,7 +23,145 @@ datasets:
     access_method: bulk-export
     description: >
       Detailed spending data from Dutch municipalities, categorized
-      by policy area (Iv3 classification).
+      by policy area (Iv3 classification). Not yet downloaded locally.
     jurisdiction: nl
     update_frequency: annually
     last_verified: "2025-01-15"
+
+  - id: nl-kvk-basis
+    name: KVK Company Register (Basic Data) + SBI Codes
+    source_url: https://www.kvk.nl/over-kvk/open-data/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-kvk-basis/
+    description: >
+      Basic company registration data from KVK and SBI activity
+      code classifications for all registered companies.
+    jurisdiction: nl
+    update_frequency: quarterly
+    last_verified: "2025-01-30"
+
+  - id: nl-kvk-jaarrekeningen
+    name: KVK Annual Financial Statements
+    source_url: https://www.kvk.nl/over-kvk/open-data/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-kvk-jaarrekeningen/
+    description: >
+      Annual financial statements (jaarrekeningen) filed with the
+      Dutch Chamber of Commerce. 5 archive files.
+    jurisdiction: nl
+    update_frequency: annually
+    last_verified: "2025-01-30"
+
+  - id: nl-insolvency
+    name: Centraal Insolventieregister
+    source_url: https://insolventies.rechtspraak.nl/
+    license: government-open-data
+    format: json
+    access_method: api
+    local_path: data/nl-insolvency/
+    description: >
+      Public insolvency records covering the last 5 years of
+      bankruptcy and debt restructuring cases.
+    jurisdiction: nl
+    update_frequency: daily
+    last_verified: "2025-01-30"
+
+  - id: nl-digimv-2023
+    name: DigiMV 2023 Healthcare Governance
+    source_url: https://www.jaarverantwoordingzorg.nl/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-digimv-2023/
+    description: >
+      Annual governance and organizational data from Dutch healthcare
+      institutions (2023 edition) with variable definitions.
+    jurisdiction: nl
+    update_frequency: annually
+    last_verified: "2025-01-30"
+
+  - id: nl-digimv-2024
+    name: DigiMV 2024 Healthcare Governance
+    source_url: https://www.jaarverantwoordingzorg.nl/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-digimv-2024/
+    description: >
+      Annual governance and organizational data from Dutch healthcare
+      institutions (2024 edition, 3 parts) with variable definitions.
+    jurisdiction: nl
+    update_frequency: annually
+    last_verified: "2025-01-30"
+
+  - id: nl-zorgaanbieders
+    name: Dutch Healthcare Provider Registry
+    source_url: https://www.zorgaanbiedersportaal.nl/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-zorgaanbieders/
+    description: >
+      Registry of healthcare providers in the Netherlands.
+    jurisdiction: nl
+    update_frequency: monthly
+    last_verified: "2025-01-30"
+
+  - id: nl-lrk-childcare
+    name: National Childcare Register (LRK)
+    source_url: https://www.landelijkregisterkinderopvang.nl/opendata/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-lrk-childcare/
+    description: >
+      Open data export of the Landelijk Register Kinderopvang,
+      the Dutch national childcare provider registry.
+    jurisdiction: nl
+    update_frequency: monthly
+    last_verified: "2025-01-30"
+
+  - id: nl-bag-addresses
+    name: BAG National Address and Building Registry
+    source_url: https://www.kadaster.nl/zakelijk/producten/adressen-en-gebouwen/bag-2.0-extract
+    license: government-open-data
+    format: xml
+    access_method: bulk-export
+    local_path: data/nl-bag-addresses/
+    description: >
+      Full BAG 2.0 extract — all addresses and buildings
+      in the Netherlands (3.3 GB compressed).
+    jurisdiction: nl
+    update_frequency: monthly
+    last_verified: "2025-01-30"
+
+  - id: nl-cbs-childcare
+    name: CBS Formal Childcare Statistics
+    source_url: https://opendata.cbs.nl/
+    license: CC-BY-4.0
+    format: csv
+    access_method: direct-download
+    local_path: data/nl-cbs-childcare/
+    description: >
+      CBS statistics on formal childcare usage in the Netherlands.
+    jurisdiction: nl
+    update_frequency: annually
+    last_verified: "2025-01-30"
+
+  - id: nl-financiele-instrumenten
+    name: Dutch Financial Instruments 2017-2024
+    source_url: https://www.rijksfinancien.nl/
+    license: government-open-data
+    format: csv
+    access_method: bulk-export
+    local_path: data/nl-financiele-instrumenten/
+    description: >
+      Overview of financial instruments (subsidies, grants, tax
+      expenditures) from Dutch government, 2017-2024.
+    jurisdiction: nl
+    update_frequency: annually
+    last_verified: "2025-01-30"

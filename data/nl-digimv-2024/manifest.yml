@@ -1,0 +1,42 @@
+# DigiMV 2024 — Healthcare Governance Data
+dataset_id: nl-digimv-2024
+name: DigiMV 2024 Healthcare Governance Questionnaire
+description: >
+  Annual governance and organizational data from Dutch healthcare
+  institutions, collected via the DigiMV questionnaire (2024 edition).
+  Split across 3 parts with corresponding variable definitions.
+source_url: https://www.jaarverantwoordingzorg.nl/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: digimv2024-openbaar-20251022-1713-multipletables-part-1.csv.gz
+    sha256: 2e91cec9c066cd1d156be749706e8667448d71bc492975bed86afda410f80330
+    size_bytes: 5025463
+    description: Part 1 of DigiMV 2024 multi-table export
+
+  - name: digimv2024-openbaar-20251022-1713-multipletables-part-1_VariableDefinition.csv.gz
+    sha256: 3b38f1230fd6c279e5cf386e5ac374a039a81403a739452bc75503e954b68d05
+    size_bytes: 115870
+    description: Variable definitions for part 1
+
+  - name: digimv2024-openbaar-20251022-1713-multipletables-part-2.csv.gz
+    sha256: 4cb8dcf8e4b9009f9f02623cb437ae0a06aae8a1395b128cfd615a24358b2eac
+    size_bytes: 6500075
+    description: Part 2 of DigiMV 2024 multi-table export
+
+  - name: digimv2024-openbaar-20251022-1713-multipletables-part-2_VariableDefinition.csv.gz
+    sha256: 61cf9a251ed1f8628d64d86c61d3ce557cbefafbc6fd0af6b4ffc2fc14285c8b
+    size_bytes: 115870
+    description: Variable definitions for part 2
+
+  - name: digimv2024-openbaar-20251022-1713-multipletables-part-3.csv.gz
+    sha256: 6d68567814822c4a69cd66dea2aed89de1b517908c06889a576e47ff6962dc75
+    size_bytes: 4896547
+    description: Part 3 of DigiMV 2024 multi-table export
+
+  - name: digimv2024-openbaar-20251022-1713-multipletables-part-3_VariableDefinition.csv.gz
+    sha256: 668d339abe10fb45d86cf2cc4b584b1e81536d7b66ebd181e4c22eb34a0a9ec6
+    size_bytes: 115870
+    description: Variable definitions for part 3

@@ -1,0 +1,21 @@
+# Landelijk Register Kinderopvang (LRK)
+dataset_id: nl-lrk-childcare
+name: National Childcare Register (LRK)
+description: >
+  Open data export of the Landelijk Register Kinderopvang — the
+  Dutch national childcare provider registry.
+source_url: https://www.landelijkregisterkinderopvang.nl/opendata/
+license: government-open-data
+jurisdiction: nl
+access_date: "2025-01-30"
+
+files:
+  - name: export_opendata_lrk.csv.gz
+    sha256: 8f4f52c29b1fb691d8d597c081c80e6732df775393a976c8a7d98e01436e50bb
+    size_bytes: 3855743
+    description: LRK open data export (primary)
+
+  - name: export_opendata_lrk_2.csv.gz
+    sha256: 0192c4a358439c9fc417d15e7922b66f06b8ca6f58d55c4835899e22a900384d
+    size_bytes: 5119070
+    description: LRK open data export (secondary/updated)
