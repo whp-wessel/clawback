@@ -1,0 +1,36 @@
+task_id: nl-childcare-lrk-kvk-ghost-providers
+
+timestamp: "2026-02-01T13:00:00Z"
+
+commit_sha: "60d1db9c8591ed71cf985ba7ef0bce24ce30d9f2"
+
+environment:
+  runtime: "python:3.14"
+  dependencies_lock: "pipelines/nl-childcare-lrk-kvk-ghost-providers/requirements.txt"
+
+inputs:
+  - path: data/nl-lrk-childcare/export_opendata_lrk_2.csv.gz
+    sha256: "0192c4a358439c9fc417d15e7922b66f06b8ca6f58d55c4835899e22a900384d"
+    size_bytes: 5119070
+  - path: data/nl-kvk-basis/PRD_202509060433_VerwerkingSBI_EXT_V2.csv.gz
+    sha256: "3995fe54e2459e90a2c7e8639ce9c8f2bb90ee8364f96bf184d2d1683b4251cc"
+    size_bytes: 87320265
+  - path: data/nl-bag-addresses/lvbag-extract-nl.zip
+    sha256: "ed83bf05d80e4abae9bc9c087707a589d814e869553c271940755289f2931f21"
+    size_bytes: 3534711392
+
+outputs:
+  - artifact_id: lrk-inactive-kvk
+    sha256: "95ad919d4f772d6f64167396cb5bd422dedd43ee5b1dce5c5442dcb9a073e7c2"
+    size_bytes: 195874
+  - artifact_id: lrk-invalid-address
+    sha256: "0c22926705fcc2ac299409c51113c66c6dd11265de7847a2bd606761b9abb70a"
+    size_bytes: 101
+  - artifact_id: lrk-address-stacking
+    sha256: "94e4bdcdc78fa8722e325046d9567ef279a9affdc9bcd7351c62738d60abf121"
+    size_bytes: 233185
+  - artifact_id: ghost-provider-summary
+    sha256: "b58f9e799e59e4e5f459d7ef53ae97220f392c4cd7c6fca1a9f226b29c233477"
+    size_bytes: 4111
+
+agent_id: whp-wessel
