@@ -2,7 +2,7 @@ id: nl-healthcare-digimv-governance-anomalies
 
 type: ai
 
-status: open
+status: in-progress
 
 objective: >
   Compare DigiMV healthcare governance data between 2023 and 2024 to
@@ -54,7 +54,7 @@ evaluation:
 
 depends_on: []
 
-claimed_by: ""
+claimed_by: whp-wessel
 
 created_at: "2025-01-31T12:00:00Z"
 updated_at: "2025-01-31T12:00:00Z"
