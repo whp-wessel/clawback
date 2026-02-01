@@ -1,0 +1,51 @@
+- id: lrk-inactive-kvk
+  task_id: nl-childcare-lrk-kvk-ghost-providers
+  sha256: "95ad919d4f772d6f64167396cb5bd422dedd43ee5b1dce5c5442dcb9a073e7c2"
+  format: csv
+  size_bytes: 195874
+  storage:
+    type: local
+    location: "pipelines/nl-childcare-lrk-kvk-ghost-providers/output/lrk-inactive-kvk.csv"
+  description: >
+    LRK providers whose linked KVK entity is not found in the active
+    KVK register (potentially dissolved or inactive).
+  created_at: "2026-02-01T13:00:00Z"
+
+- id: lrk-invalid-address
+  task_id: nl-childcare-lrk-kvk-ghost-providers
+  sha256: "0c22926705fcc2ac299409c51113c66c6dd11265de7847a2bd606761b9abb70a"
+  format: csv
+  size_bytes: 101
+  storage:
+    type: local
+    location: "pipelines/nl-childcare-lrk-kvk-ghost-providers/output/lrk-invalid-address.csv"
+  description: >
+    LRK providers whose address postcode cannot be matched to a valid BAG entry.
+    (0 results — all LRK postcodes matched BAG postcodes.)
+  created_at: "2026-02-01T13:00:00Z"
+
+- id: lrk-address-stacking
+  task_id: nl-childcare-lrk-kvk-ghost-providers
+  sha256: "94e4bdcdc78fa8722e325046d9567ef279a9affdc9bcd7351c62738d60abf121"
+  format: csv
+  size_bytes: 233185
+  storage:
+    type: local
+    location: "pipelines/nl-childcare-lrk-kvk-ghost-providers/output/lrk-address-stacking.csv"
+  description: >
+    Addresses (postcodes) with 3 or more active LRK-registered providers,
+    flagged as anomalous for potential address stacking.
+  created_at: "2026-02-01T13:00:00Z"
+
+- id: ghost-provider-summary
+  task_id: nl-childcare-lrk-kvk-ghost-providers
+  sha256: "b58f9e799e59e4e5f459d7ef53ae97220f392c4cd7c6fca1a9f226b29c233477"
+  format: md
+  size_bytes: 4111
+  storage:
+    type: local
+    location: "pipelines/nl-childcare-lrk-kvk-ghost-providers/output/ghost-provider-summary.md"
+  description: >
+    Methodology, findings, and limitations. Includes required
+    disclaimer per policies/disclosure.yml.
+  created_at: "2026-02-01T13:00:00Z"
