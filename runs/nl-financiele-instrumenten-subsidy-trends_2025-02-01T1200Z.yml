@@ -1,0 +1,19 @@
+task_id: nl-financiele-instrumenten-subsidy-trends
+timestamp: "2025-02-01T12:00:00Z"
+commit_sha: "60d1db9c8591ed71cf985ba7ef0bce24ce30d9f2"
+environment:
+  runtime: "python:3.14"
+  os: "darwin"
+  dependencies_lock: "pipelines/nl-financiele-instrumenten-subsidy-trends/requirements.txt"
+inputs:
+  - path: data/nl-financiele-instrumenten/Financiele_instrumenten_2017-2024.csv.gz
+    sha256: "98435199c075c4b3a53a7da104737ffdd19f3d504f40eb8770ce38be6732e6f8"
+outputs:
+  - artifact_id: subsidy-growth-anomalies
+    sha256: "5feb45223f0abb87ccc996458db1f0e533adeb85cf90591840ab39ec6449d9a4"
+  - artifact_id: budget-vs-actual-outliers
+    sha256: "b6af8406ed6e7b43e8fa3d0755f4b38aa2b0bbb06d96bf1eb69265b7054c5732"
+  - artifact_id: subsidy-trends-summary
+    sha256: "3d70877622facb2ee6bd1e72fcee8f21177ed5cdadb1b7f505066e13416309a2"
+duration_seconds: 5.2
+agent_id: "whp-wessel"

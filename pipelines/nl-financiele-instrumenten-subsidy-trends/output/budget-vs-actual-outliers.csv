@@ -1,0 +1,800 @@
+budget_name,regeling,instrument,year,amount_k,baseline_k,deviation_pct,deviation_direction,n_years
+"Onderwijs, Cultuur en Wetenschap",Bekostiging voortgezet onderwijs lumpsum,Bekostiging,2021,8812213,34783,25234.6,over,8
+Infrastructuur en Waterstaat,Wet Personenvervoer 2000,Subsidies (regelingen),2023,265326,1205,21918.8,over,6
+Infrastructuur en Waterstaat,Incidenteel,Subsidies (regelingen),2020,631824,12022,5155.3,over,6
+"Onderwijs, Cultuur en Wetenschap",Basisbeurs prestatiebeurs (NR),Leningen,2024,1209060,-35373,-3518.0,under,4
+"Onderwijs, Cultuur en Wetenschap",Loopbaanorientatie,Subsidies (regelingen),2023,69192,2193,3054.7,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Gemeenten,Bijdrage aan medeoverheden,2023,57246,2001,2760.9,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Energiebesparing Koopsector,Subsidies (regelingen),2021,90134,3559,2432.3,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse subsidies,Subsidies (regelingen),2020,79984,3799,2005.4,over,6
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Subsidies (regelingen),2022,108491,5643,1822.7,over,6
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Subsidies (regelingen),2023,755930,39662,1805.9,over,6
+Koninkrijksrelaties,Bijdrage landen,Bijdrage aan medeoverheden,2022,20384,1127,1708.2,over,8
+Defensiematerieelbegrotingsfonds,Kennisgebruik,Bekostiging,2023,21000,1384,1416.8,over,4
+Defensiematerieelbegrotingsfonds,Kort Cyclische Innovatie,Bekostiging,2023,25426,2018,1160.0,over,4
+Financiën,Bijdrage overige agentschappen,Bijdrage aan agentschappen,2023,48258,4291,1024.5,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,RVB (Bijdr voor AZ),Bijdrage aan agentschappen,2022,16967,1646,930.8,over,5
+Economische Zaken en Klimaat,Versnelde klimaatinvestingen in de industrie,Subsidies (regelingen),2022,32644,3340,877.5,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Logius,Bijdrage aan agentschappen,2023,573134,59248,867.4,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,RVO,Bijdrage aan agentschappen,2023,30348,3346,807.0,over,7
+Koninkrijksrelaties,Diverse subsidies,Subsidies (regelingen),2023,9164,1049,773.3,over,6
+"Landbouw, Natuur en Voedselkwaliteit",Onderzoeksprogrammering,Subsidies (regelingen),2023,144886,16908,756.9,over,7
+"Onderwijs, Cultuur en Wetenschap",Tegemoetkoming kosten opleidingsscholen,Bekostiging,2021,40442,4867,731.0,over,7
+Buitenlandse Zaken,Subsidieregeling BZ 2006,Subsidies (regelingen),2023,148336,18114,718.9,over,7
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten SVB,Bijdrage aan ZBOs en RWTs,2023,376900,49705,658.3,over,8
+"Onderwijs, Cultuur en Wetenschap",Dotatie/onttrekking Algemene Mediareserve,Bekostiging,2019,83809,-15252,-649.5,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Eenvoudig Beter,Subsidies (regelingen),2021,23564,3360,601.3,over,6
+Buitenlandse Zaken,CTBTO,Bijdrage aan (inter-)nationale organisaties,2023,7064,1029,586.5,over,8
+Financiën,Overig,Bijdrage aan ZBOs en RWTs,2023,7652,1120,582.9,over,4
+"Onderwijs, Cultuur en Wetenschap",Bekostiging Primair Onderwijs,Bekostiging,2023,28836704,4312653,568.7,over,6
+Economische Zaken en Klimaat,Invest-NL,Subsidies (regelingen),2023,40474,6081,565.6,over,6
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten UWV,Bijdrage aan ZBOs en RWTs,2023,1050806,162392,547.1,over,8
+Economische Zaken en Klimaat,Regeling subsidie financiering vaste lasten MKB COVID-19,Subsidies (regelingen),2022,3487603,550468,533.6,over,5
+"Onderwijs, Cultuur en Wetenschap",Overige uitgaven (NR),Leningen,2024,30492,4831,531.2,over,4
+Binnenlandse Zaken en Koninkrijksrelaties,RVB,Bijdrage aan agentschappen,2022,114530,18352,524.1,over,6
+Economische Zaken en Klimaat,Bijdrage aan ACM,Bijdrage aan ZBOs en RWTs,2023,1452472,237554,511.4,over,5
+"Landbouw, Natuur en Voedselkwaliteit",Missiegedreven Topsectoren,Subsidies (regelingen),2023,118520,19526,507.0,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,AZ-DPC,Bijdrage aan agentschappen,2023,14456,2404,501.2,over,4
+Binnenlandse Zaken en Koninkrijksrelaties,RVB,Bijdrage aan agentschappen,2023,301136,51231,487.8,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,RDW,Bijdrage aan ZBOs en RWTs,2020,7834,1341,484.0,over,7
+Economische Zaken en Klimaat,Hernieuwbare Energie,Subsidies (regelingen),2023,31056,5436,471.3,over,5
+Buitenlandse Zaken,OESO,Bijdrage aan (inter-)nationale organisaties,2023,27916,4989,459.6,over,8
+"Onderwijs, Cultuur en Wetenschap",Overige subsidies,Subsidies (regelingen),2019,126257,22756,454.8,over,8
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten IB,Bijdrage aan ZBOs en RWTs,2023,31980,5833,448.3,over,8
+Justitie en Veiligheid,DJI - jeugd,Bijdrage aan agentschappen,2021,176995,32730,440.8,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Warmtefonds,Subsidies (regelingen),2023,310780,60000,418.0,over,4
+"Onderwijs, Cultuur en Wetenschap",Programma leesbevordering,Subsidies (regelingen),2023,41438,8151,408.4,over,8
+Financiën,Overige bijdrage ZBO's/RWT's,Bijdrage aan ZBOs en RWTs,2022,19448,3939,393.7,over,6
+Economische Zaken en Klimaat,Versnelde klimaatinvestingen in de industrie,Subsidies (regelingen),2023,69486,14175,390.2,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,ICTU,Bijdrage aan ZBOs en RWTs,2023,76632,15758,386.3,over,6
+Economische Zaken en Klimaat,Thematisch Technology Transfer,Leningen,2023,9482,1968,381.8,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,RDW,Bijdrage aan ZBOs en RWTs,2021,16202,3419,373.8,over,7
+Economische Zaken en Klimaat,Bijdrage Metrologie,Bijdrage aan ZBOs en RWTs,2023,34590,7413,366.6,over,6
+"Onderwijs, Cultuur en Wetenschap",Onderwijsdeel wo,Bekostiging,2023,13691536,2939536,365.8,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan agentschappen,2021,8271,1824,353.4,over,6
+Economische Zaken en Klimaat,Bijdrage aan NWO-TTW,Bijdrage aan ZBOs en RWTs,2023,42368,9512,345.4,over,6
+Economische Zaken en Klimaat,Cofinanciering EFRO incl. Interreg,Subsidies (regelingen),2022,25629,5778,343.6,over,5
+"Onderwijs, Cultuur en Wetenschap",Programma leesbevordering,Subsidies (regelingen),2022,16416,3822,329.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Onderwijsdeel wo,Bekostiging,2022,6421164,1559745,311.7,over,8
+Economische Zaken en Klimaat,Thematisch Technology Transfer,Subsidies (regelingen),2023,5724,1393,310.8,over,5
+Defensie,Bijdrage aan internationale samenwerking,Bijdrage aan (inter-)nationale organisaties,2023,22366,5469,309.0,over,4
+Binnenlandse Zaken en Koninkrijksrelaties,RVB (Bijdr monument),Bijdrage aan agentschappen,2023,7932,1982,300.1,over,5
+"Onderwijs, Cultuur en Wetenschap",Caribisch Nederland,Bijdrage aan medeoverheden,2023,33514,8441,297.0,over,8
+Buitenlandse Zaken,NAVO,Bijdrage aan (inter-)nationale organisaties,2023,25492,6505,291.9,over,8
+Economische Zaken en Klimaat,Cofinanciering EFRO incl. Interreg,Subsidies (regelingen),2023,48524,12395,291.5,over,5
+"Onderwijs, Cultuur en Wetenschap",Specifiek cultuurbeleid,Subsidies (regelingen),2020,131299,33632,290.4,over,8
+Economische Zaken en Klimaat,MIT R&D Samenwerkingsprojecten,Subsidies (regelingen),2023,6156,1609,282.5,over,5
+Buitenlandse Zaken,Internationaal Strafhof,Bijdrage aan (inter-)nationale organisaties,2022,7065,1877,276.3,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Weerbaar bestuur,Subsidies (regelingen),2023,4896,1307,274.5,over,5
+Buitenlandse Zaken,NAVO,Bijdrage aan (inter-)nationale organisaties,2021,9414,2543,270.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging Caribisch Nederland,Bekostiging,2022,63083,17050,270.0,over,8
+"Onderwijs, Cultuur en Wetenschap",Basisbeurs prestatiebeurs (NR),Leningen,2023,556696,-331408,-268.0,under,4
+Defensie,Bekostiging diverse instellingen,Bekostiging,2023,15552,4228,267.8,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Kadaster,Bijdrage aan ZBOs en RWTs,2023,90960,24732,267.8,over,6
+Economische Zaken en Klimaat,INTERNATIONAAL_INNOVEREN,Bijdrage aan (inter-)nationale organisaties,2023,90818,24908,264.6,over,6
+Economische Zaken en Klimaat,Bijdrage aan TNO,Bijdrage aan ZBOs en RWTs,2023,503072,138437,263.4,over,6
+Sociale Zaken en Werkgelegenheid,DUO,Bijdrage aan agentschappen,2023,72378,20507,252.9,over,8
+Buitenlandse Zaken,OVSE,Bijdrage aan (inter-)nationale organisaties,2021,6267,1792,249.7,over,8
+Buitenlandse Zaken,Internationaal Strafhof,Bijdrage aan (inter-)nationale organisaties,2021,5632,1614,248.9,over,8
+Economische Zaken en Klimaat,Topconsortia voor Kennis en Innovatie,Bijdrage aan (inter-)nationale organisaties,2023,336562,97367,245.7,over,6
+Buitenlandse Zaken,OVSE,Bijdrage aan (inter-)nationale organisaties,2022,7218,2089,245.5,over,8
+Gemeentefonds,Algemene uitkering,Bijdrage aan medeoverheden,2024,38751783,11240408,244.8,over,8
+"Onderwijs, Cultuur en Wetenschap","Stichting Kennisnet (basissubsidie) po, vo, mbo",Subsidies (regelingen),2023,70604,20484,244.7,over,6
+Economische Zaken en Klimaat,EUROSTARS,Subsidies (regelingen),2023,41246,12009,243.4,over,6
+Economische Zaken en Klimaat,Invest-NL,Subsidies (regelingen),2022,10276,2992,243.4,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Bouwregelgeving en bouwkwaliteit,Subsidies (regelingen),2023,22210,6482,242.6,over,5
+"Onderwijs, Cultuur en Wetenschap",Investeringsbudget,Bekostiging,2023,1172214,342789,242.0,over,8
+Defensie,Kennisopbouw MARIN via EZ,Bijdrage aan (andere) begrotingshoofdstukken,2023,7058,2077,239.8,over,5
+Buitenlandse Zaken,Verenigde Naties,Bijdrage aan (inter-)nationale organisaties,2023,76536,22571,239.1,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Woningmarkt,Subsidies (regelingen),2023,29560,8762,237.4,over,5
+"Onderwijs, Cultuur en Wetenschap",Bekostiging Caribisch Nederland,Bekostiging,2023,127930,38078,236.0,over,8
+Buitenlandse Zaken,OESO,Bijdrage aan (inter-)nationale organisaties,2021,7423,2210,235.9,over,8
+Economische Zaken en Klimaat,Groeifaciliteit,Garanties,2023,9308,2775,235.4,over,6
+Financiën,Bijdrage FEC,Bijdrage aan ZBOs en RWTs,2023,9198,2746,234.9,over,6
+Buitenlandse Zaken,IAEA,Bijdrage aan (inter-)nationale organisaties,2023,14268,4276,233.7,over,8
+"Onderwijs, Cultuur en Wetenschap",Caribisch Nederland,Bijdrage aan medeoverheden,2019,7441,2240,232.2,over,8
+Buitenlandse Zaken,Raad van Europa,Bijdrage aan (inter-)nationale organisaties,2022,12061,3633,232.0,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,Overheidsdienstverlening,Subsidies (regelingen),2023,16982,5117,231.9,over,4
+"Landbouw, Natuur en Voedselkwaliteit",Subsidiemodule agrarische bedrijfsadvisering en educatie,Subsidies (regelingen),2023,21974,6626,231.7,over,4
+Economische Zaken en Klimaat,R&D mobiliteitssectoren,Subsidies (regelingen),2023,67162,20308,230.7,over,4
+Buitenlandse Zaken,Raad van Europa,Bijdrage aan (inter-)nationale organisaties,2023,25188,7653,229.1,over,7
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Bekostiging,2023,26518,8079,228.2,over,8
+Buitenlandse Zaken,Raad van Europa,Bijdrage aan (inter-)nationale organisaties,2021,10898,3322,228.1,over,7
+Economische Zaken en Klimaat,Innovatieregeling Demonstratieprojecten,Subsidies (regelingen),2023,116368,35537,227.5,over,6
+"Onderwijs, Cultuur en Wetenschap",Verbreden inzet cultuur,Subsidies (regelingen),2023,44080,13495,226.6,over,6
+Buitenlandse Zaken,Benelux bijdrage,Bijdrage aan (inter-)nationale organisaties,2023,8988,2783,222.9,over,7
+Buitenlandse Zaken,NAVO,Bijdrage aan (inter-)nationale organisaties,2022,10102,3138,221.9,over,8
+"Onderwijs, Cultuur en Wetenschap",Zij-Instroom,Subsidies (regelingen),2023,135624,42170,221.6,over,5
+"Onderwijs, Cultuur en Wetenschap",Gemeentelijk onderwijsachterstandenbeleid,Bijdrage aan medeoverheden,2023,1130440,352406,220.8,over,8
+Buitenlandse Zaken,VN-contributie voor crisisbeheersingsoperaties,Bijdrage aan (inter-)nationale organisaties,2022,77496,24220,220.0,over,8
+"Onderwijs, Cultuur en Wetenschap",Subsidieregeling praktijkleren,Subsidies (regelingen),2020,427000,133516,219.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging voortgezet onderwijs lumpsum,Bekostiging,2023,19131896,6044003,216.5,over,8
+Koninkrijksrelaties,Grensbewaking (Defensie),Bijdrage aan (andere) begrotingshoofdstukken,2022,6673,2113,215.8,over,8
+Buitenlandse Zaken,IAEA,Bijdrage aan (inter-)nationale organisaties,2022,6548,2094,212.8,over,8
+Buitenlandse Zaken,Benelux bijdrage,Bijdrage aan (inter-)nationale organisaties,2021,4104,1318,211.5,over,7
+Buitenlandse Zaken,Verenigde Naties,Bijdrage aan (inter-)nationale organisaties,2021,34065,10955,210.9,over,8
+Buitenlandse Zaken,Benelux bijdrage,Bijdrage aan (inter-)nationale organisaties,2022,4246,1368,210.4,over,7
+"Onderwijs, Cultuur en Wetenschap",Bekostiging voortgezet onderwijs lumpsum,Bekostiging,2022,9215447,2972188,210.1,over,8
+"Onderwijs, Cultuur en Wetenschap",Salarismix Randstadregio's,Bekostiging,2022,54392,17554,209.8,over,7
+"Onderwijs, Cultuur en Wetenschap",Salarismix Randstadregio's,Bekostiging,2023,110532,35685,209.7,over,7
+"Onderwijs, Cultuur en Wetenschap",Gemeentelijk onderwijsachterstandenbeleid,Bijdrage aan medeoverheden,2022,536493,173575,209.1,over,8
+Economische Zaken en Klimaat,European Space Agency,Bijdrage aan (inter-)nationale organisaties,2023,177150,57404,208.6,over,6
+Koninkrijksrelaties,Versterken bestuurs- en uitvoeringskracht,Bijdrage aan medeoverheden,2023,23924,7850,204.8,over,4
+Buitenlandse Zaken,OESO,Bijdrage aan (inter-)nationale organisaties,2022,7543,2474,204.8,over,8
+Sociale Zaken en Werkgelegenheid,Agentschap RIVM,Bijdrage aan agentschappen,2023,9938,3267,204.2,over,7
+"Onderwijs, Cultuur en Wetenschap",Overig bekostiging Primair Onderwijs,Bekostiging,2023,54766,18032,203.7,over,7
+Defensie,Kennisopbouw TNO via EZ,Bijdrage aan (andere) begrotingshoofdstukken,2023,135832,44954,202.2,over,5
+Buitenlandse Zaken,VN-contributie voor crisisbeheersingsoperaties,Bijdrage aan (inter-)nationale organisaties,2023,151152,50052,202.0,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Woningmarkt,Bijdrage aan ZBOs en RWTs,2023,6754,2244,201.0,over,5
+"Onderwijs, Cultuur en Wetenschap",Regionaal programma,Bekostiging,2023,61066,20372,199.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Europees Universitair Instituut Florence (EUI),Bijdrage aan (inter-)nationale organisaties,2023,3422,1152,197.1,over,8
+Infrastructuur en Waterstaat,Besluit financiële bepalingen bodemsanering: Bedrijvenregeling bodemsanering,Subsidies (regelingen),2023,4250,1431,196.9,over,6
+Buitenlandse Zaken,Verenigde Naties,Bijdrage aan (inter-)nationale organisaties,2022,33649,11355,196.3,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Bestuur en regio,Subsidies (regelingen),2023,6908,2359,192.8,over,5
+"Landbouw, Natuur en Voedselkwaliteit",Regeling Versneld Natuurherstel,Subsidies (regelingen),2023,32060,11004,191.4,over,4
+"Onderwijs, Cultuur en Wetenschap",Nationaal Archief (NA),Bijdrage aan agentschappen,2023,121972,42201,189.0,over,8
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Bijdrage aan (inter-)nationale organisaties,2023,35720,12359,189.0,over,6
+Buitenlandse Zaken,IAEA,Bijdrage aan (inter-)nationale organisaties,2021,6281,2184,187.6,over,8
+Economische Zaken en Klimaat,Verduurzaming industrie,Subsidies (regelingen),2021,9149,3201,185.8,over,4
+"Onderwijs, Cultuur en Wetenschap",Commissariaat voor de Media,Bijdrage aan ZBOs en RWTs,2023,14218,4998,184.5,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan agentschappen,2022,12593,4433,184.1,over,6
+Sociale Zaken en Werkgelegenheid,COA,Bijdrage aan ZBOs en RWTs,2023,67302,23801,182.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Reisvoorziening (NR),Leningen,2023,498336,176372,182.5,over,4
+Justitie en Veiligheid,Dienst Justis,Bijdrage aan agentschappen,2021,4810,1726,178.8,over,6
+"Onderwijs, Cultuur en Wetenschap",Nationaal Agentschap Erasmus+ Onderwijs & Training,Bijdrage aan (inter-)nationale organisaties,2019,3066,1104,177.6,over,8
+"Onderwijs, Cultuur en Wetenschap",Collegegeldkrediet (NR),Leningen,2023,360678,130121,177.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Overige uitgaven (NR),Leningen,2023,-8916,11704,-176.2,under,4
+"Onderwijs, Cultuur en Wetenschap",Nederlands-Vlaamse Accreditatieorganisatie (NVAO),Bijdrage aan ZBOs en RWTs,2023,11918,4319,175.9,over,8
+"Onderwijs, Cultuur en Wetenschap",Regeling Onderwijsvoorziening jonggehandicapten,Subsidies (regelingen),2023,63440,23012,175.7,over,6
+"Onderwijs, Cultuur en Wetenschap",Internationaal cultuurbeleid (incl. HGIS),Subsidies (regelingen),2023,24212,8785,175.6,over,6
+"Onderwijs, Cultuur en Wetenschap",UWV,Bijdrage aan ZBOs en RWTs,2023,5532,2013,174.8,over,8
+Buitenlandse Zaken,VN-contributie voor crisisbeheersingsoperaties,Bijdrage aan (inter-)nationale organisaties,2021,72660,26826,170.9,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Werkgeversbeleid,Bijdrage aan agentschappen,2023,7326,2710,170.3,over,5
+"Onderwijs, Cultuur en Wetenschap",NBC/Nationaal Herbarium,Subsidies (regelingen),2023,17018,6299,170.2,over,6
+Economische Zaken en Klimaat,Co-FIN ERA-NET Energiecall,Subsidies (regelingen),2023,4514,1673,169.9,over,6
+Economische Zaken en Klimaat,Vroegefasefinanciering,Leningen,2023,20788,7873,164.0,over,6
+Economische Zaken en Klimaat,Topsector Energie,Subsidies (regelingen),2023,131100,49876,162.9,over,7
+"Onderwijs, Cultuur en Wetenschap",Dienst Uitvoering Onderwijs (DUO),Bijdrage aan agentschappen,2023,757110,288309,162.6,over,7
+Economische Zaken en Klimaat,Innovatieregeling Demonstratieprojecten,Subsidies (regelingen),2022,72824,27763,162.3,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,SAIP,Bijdrage aan ZBOs en RWTs,2023,12000,4578,162.1,over,5
+"Onderwijs, Cultuur en Wetenschap",Nederlands Instituut voor Beeld en Geluid (NIBG),Bekostiging,2023,64182,24494,162.0,over,8
+"Onderwijs, Cultuur en Wetenschap",Educatie,Bijdrage aan medeoverheden,2023,170894,65451,161.1,over,8
+Justitie en Veiligheid,Regionale Informatie en Expertise Centra,Bijdrage aan medeoverheden,2022,13329,5118,160.5,over,6
+"Onderwijs, Cultuur en Wetenschap",SBB,Bijdrage aan ZBOs en RWTs,2023,164126,63018,160.4,over,8
+Justitie en Veiligheid,CJIB,Bijdrage aan agentschappen,2021,150870,58108,159.6,over,6
+"Onderwijs, Cultuur en Wetenschap",Rijksdienst voor Ondernemend Nederland,Bijdrage aan agentschappen,2023,6206,2396,159.0,over,8
+Buitenlandse Zaken,Internationaal Strafhof,Bijdrage aan (inter-)nationale organisaties,2023,10922,4232,158.1,over,8
+"Onderwijs, Cultuur en Wetenschap",Tegemoetkoming kosten opleidingsscholen,Bekostiging,2023,78836,30586,157.8,over,7
+Economische Zaken en Klimaat,MKB Idee,Subsidies (regelingen),2022,6509,2533,156.9,over,6
+Justitie en Veiligheid,Autoriteit Persoonsgegevens,Bijdrage aan ZBOs en RWTs,2021,26257,10246,156.3,over,6
+"Onderwijs, Cultuur en Wetenschap",Tegemoetkoming kosten opleidingsscholen,Bekostiging,2022,44065,17231,155.7,over,7
+Sociale Zaken en Werkgelegenheid,Overige subsidies,Subsidies (regelingen),2024,6804,2695,152.4,over,7
+"Onderwijs, Cultuur en Wetenschap",Nederlandse Taalunie,Bijdrage aan (inter-)nationale organisaties,2020,6990,2770,152.3,over,8
+"Onderwijs, Cultuur en Wetenschap",Studievoorschot middelen,Bekostiging,2023,1166708,464100,151.4,over,4
+Buitenlandse Zaken,Europees Ontwikkelingsfonds,Bijdrage aan (inter-)nationale organisaties,2021,179482,71417,151.3,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan agentschappen,2023,19958,7942,151.3,over,6
+"Onderwijs, Cultuur en Wetenschap",Vakwedstrijden MBO,Subsidies (regelingen),2023,9442,3800,148.5,over,5
+Economische Zaken en Klimaat,Regeling seed capital technostarters,Leningen,2023,79994,32310,147.6,over,6
+Infrastructuur en Waterstaat,Begroting,Subsidies (regelingen),2022,22215,9079,144.7,over,6
+Provinciefonds,Algemene uitkering,Bijdrage aan medeoverheden,2023,6101034,2496851,144.3,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Gemeenten,Bijdrage aan medeoverheden,2020,5144,2107,144.1,over,6
+"Onderwijs, Cultuur en Wetenschap",Specifiek cultuurbeleid,Subsidies (regelingen),2021,169974,69866,143.3,over,8
+"Onderwijs, Cultuur en Wetenschap",Overige subsidies,Subsidies (regelingen),2023,371644,152995,142.9,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Marktintroductie Energie Innovatie,Subsidies (regelingen),2021,7879,3252,142.3,over,6
+"Onderwijs, Cultuur en Wetenschap",EMBL,Bijdrage aan (inter-)nationale organisaties,2023,13076,5403,142.0,over,8
+"Onderwijs, Cultuur en Wetenschap",NWO,Bekostiging,2023,1179610,487852,141.8,over,8
+Justitie en Veiligheid,Onderzoeksraad voor Veiligheid,Bijdrage aan ZBOs en RWTs,2021,15594,6468,141.1,over,6
+"Onderwijs, Cultuur en Wetenschap",Stimuleringsfonds voor de Journalistiek,Bekostiging,2023,6162,2564,140.3,over,8
+"Onderwijs, Cultuur en Wetenschap",Aanvullende regeling leerlingendaling,Bekostiging,2023,9030,3770,139.5,over,5
+"Onderwijs, Cultuur en Wetenschap",Nationaal Agentschap Erasmus+Onderwijs&Training,Subsidies (regelingen),2023,8674,3621,139.5,over,4
+"Onderwijs, Cultuur en Wetenschap",CERN,Bijdrage aan (inter-)nationale organisaties,2023,122820,51373,139.1,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Subsidiemodule brongerichte Verduurzaming,Subsidies (regelingen),2023,16838,7069,138.2,over,5
+"Onderwijs, Cultuur en Wetenschap",NCWT/NEMO,Subsidies (regelingen),2023,8412,3552,136.8,over,6
+Buitenlandse Zaken,OVSE,Bijdrage aan (inter-)nationale organisaties,2023,10620,4495,136.3,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan agentschappen,2020,2962,1256,135.9,over,6
+Financiën,Bijdrage FEC,Bijdrage aan ZBOs en RWTs,2021,3728,1587,134.9,over,6
+Justitie en Veiligheid,Bureau Financieel Toezicht,Bijdrage aan ZBOs en RWTs,2021,8146,3478,134.2,over,6
+Financiën,Bijdrage overige agentschappen,Bijdrage aan agentschappen,2022,7796,3333,133.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Landelijke publieke omroep,Bekostiging,2023,1914094,822223,132.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Lerarenbeurs,Subsidies (regelingen),2023,121538,52268,132.5,over,6
+Justitie en Veiligheid,DJI - jeugd,Bijdrage aan agentschappen,2022,187479,80818,132.0,over,6
+Economische Zaken en Klimaat,Kamer van Koophandel,Bijdrage aan ZBOs en RWTs,2023,307638,132654,131.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Stichting Omroep Muziek,Bekostiging,2023,39954,17258,131.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Regionale Omroep,Bekostiging,2023,357936,155356,130.4,over,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging vavo,Bekostiging,2023,160376,69637,130.3,over,8
+Economische Zaken en Klimaat,MKB Idee,Subsidies (regelingen),2023,5330,2314,130.3,over,6
+"Onderwijs, Cultuur en Wetenschap",Humanistisch vormend en godsdienstonderwijs,Subsidies (regelingen),2023,31510,13757,129.0,over,6
+Justitie en Veiligheid,Regionale Informatie en Expertise Centra,Bijdrage aan medeoverheden,2021,8183,3585,128.3,over,6
+Economische Zaken en Klimaat,Topconsortia voor Kennis en Innovatie,Bijdrage aan (inter-)nationale organisaties,2022,183949,80931,127.3,over,6
+"Onderwijs, Cultuur en Wetenschap",Specifiek cultuurbeleid,Subsidies (regelingen),2022,255326,112716,126.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Flankerend beleid huisvesting,Bekostiging,2023,13450,5939,126.5,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan ZBOs en RWTs,2019,15935,7038,126.4,over,7
+"Onderwijs, Cultuur en Wetenschap",Archieven incl. Regionale Historische Centra,Bekostiging,2023,62598,27778,125.4,over,7
+"Onderwijs, Cultuur en Wetenschap",Rentedragende lening (NR),Leningen,2023,3799180,1692326,124.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Organisatie van Lokale Omroepen Nederland (OLON),Bekostiging,2023,3778,1685,124.2,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,Politieke partijen,Subsidies (regelingen),2023,58916,26291,124.1,over,5
+Justitie en Veiligheid,Dienst Justis,Bijdrage aan agentschappen,2022,6166,2754,123.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Mediawijsheid Expertisecentr (Bewust mediagebruik),Bekostiging,2023,3658,1635,123.7,over,8
+"Onderwijs, Cultuur en Wetenschap",ZBO: College voor Toetsen en Examens,Bijdrage aan ZBOs en RWTs,2023,25806,11542,123.6,over,8
+"Onderwijs, Cultuur en Wetenschap",NWO NRO,Bekostiging,2023,87534,39213,123.2,over,8
+Sociale Zaken en Werkgelegenheid,DUO,Leningen,2023,181406,81459,122.7,over,7
+Buitenlandse Zaken,Mensenrechtenfonds,Bijdrage aan (inter-)nationale organisaties,2023,79836,35984,121.9,over,4
+"Onderwijs, Cultuur en Wetenschap",Subsidieregeling St.AAP,Subsidies (regelingen),2023,2384,1080,120.7,over,6
+Infrastructuur en Waterstaat,Begroting,Subsidies (regelingen),2023,30314,13751,120.4,over,6
+Buitenlandse Zaken,Europees Ontwikkelingsfonds,Bijdrage aan (inter-)nationale organisaties,2022,131504,59827,119.8,over,6
+"Onderwijs, Cultuur en Wetenschap",KNAW,Bekostiging,2023,213266,97293,119.2,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,ProDemos,Subsidies (regelingen),2023,17958,8205,118.9,over,5
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Bijdrage aan (inter-)nationale organisaties,2022,19998,9149,118.6,over,6
+"Onderwijs, Cultuur en Wetenschap",Nederlandse Taalunie,Bijdrage aan (inter-)nationale organisaties,2023,15602,7146,118.3,over,8
+"Onderwijs, Cultuur en Wetenschap",NWO: Promotiebeurs voor leraren,Bijdrage aan ZBOs en RWTs,2023,22692,10406,118.1,over,8
+"Onderwijs, Cultuur en Wetenschap",Onderwijsdeel hbo,Bekostiging,2023,8225976,3771421,118.1,over,8
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Subsidies (regelingen),2022,6922,3184,117.4,over,6
+"Onderwijs, Cultuur en Wetenschap",SLOA: onderw ondersteunende instellingen po/vo/mbo,Bijdrage aan ZBOs en RWTs,2023,94160,43545,116.2,over,7
+Sociale Zaken en Werkgelegenheid,DUO,Bijdrage aan agentschappen,2024,74959,34695,116.0,over,8
+"Onderwijs, Cultuur en Wetenschap",United Nations University (UNU),Bijdrage aan (inter-)nationale organisaties,2023,2262,1049,115.6,over,4
+"Landbouw, Natuur en Voedselkwaliteit",Subsidieregeling sloop- en ombouwkosten pelsdierhouderij,Subsidies (regelingen),2023,13348,6194,115.5,over,4
+"Onderwijs, Cultuur en Wetenschap",Vluchteling Studenten UAF,Subsidies (regelingen),2023,4886,2270,115.3,over,4
+"Onderwijs, Cultuur en Wetenschap",ESA,Bijdrage aan (inter-)nationale organisaties,2023,70674,32941,114.5,over,8
+Justitie en Veiligheid,Halt,Bijdrage aan ZBOs en RWTs,2021,12897,6034,113.7,over,6
+Infrastructuur en Waterstaat,Besluit financiële bepalingen bodemsanering: Bedrijvenregeling bodemsanering,Subsidies (regelingen),2021,3113,1458,113.5,over,6
+Justitie en Veiligheid,Leger des Heils,Bijdrage aan ZBOs en RWTs,2021,23861,11186,113.3,over,6
+"Onderwijs, Cultuur en Wetenschap",Aanpak lerarentekort G5,Bekostiging,2023,63132,29631,113.1,over,5
+Justitie en Veiligheid,Brede Doeluitkering Rampenbestrijding,Bijdrage aan medeoverheden,2024,252849,119719,111.2,over,6
+Justitie en Veiligheid,Reclassering Nederland,Bijdrage aan ZBOs en RWTs,2021,160436,76070,110.9,over,6
+"Landbouw, Natuur en Voedselkwaliteit",Tijdelijke Ondersteuning Nationale Parken,Subsidies (regelingen),2023,3312,1572,110.7,over,4
+Infrastructuur en Waterstaat,"Subsidieregeling SWOV, TeamAlert en Veilig Verkeer Nederland 2019",Subsidies (regelingen),2023,18702,8884,110.5,over,4
+"Onderwijs, Cultuur en Wetenschap",Leven Lang Ontwikkelen,Subsidies (regelingen),2021,5223,2482,110.4,over,5
+Justitie en Veiligheid,Politieacademie,Bijdrage aan ZBOs en RWTs,2021,3075,1463,110.2,over,6
+"Onderwijs, Cultuur en Wetenschap",Bijdrage aan (inter)nationale organisaties,Bijdrage aan (inter-)nationale organisaties,2023,3746,1788,109.5,over,7
+Justitie en Veiligheid,Stichting Verslavingsreclassering GGZ,Bijdrage aan ZBOs en RWTs,2021,78826,37654,109.3,over,6
+Economische Zaken en Klimaat,Groeifaciliteit,Garanties,2024,8615,4138,108.2,over,6
+Justitie en Veiligheid,Politie,Bijdrage aan ZBOs en RWTs,2021,6362359,3058133,108.0,over,6
+"Onderwijs, Cultuur en Wetenschap",Regionaal Investeringsfonds,Bekostiging,2023,43212,20799,107.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Subsidieregeling praktijkleren,Subsidies (regelingen),2019,204048,98250,107.7,over,8
+"Onderwijs, Cultuur en Wetenschap",Overige subsidies,Subsidies (regelingen),2020,118638,57256,107.2,over,8
+Financiën,Bijdrage overige agentschappen,Bijdrage aan agentschappen,2021,5078,2460,106.4,over,6
+"Onderwijs, Cultuur en Wetenschap",NWO NWA,Bekostiging,2023,295008,143304,105.9,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan ZBOs en RWTs,2023,19018,9283,104.9,over,7
+"Onderwijs, Cultuur en Wetenschap",RMC's,Bijdrage aan medeoverheden,2023,87210,42639,104.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Overige subsidies,Subsidies (regelingen),2021,181471,88741,104.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Programma leesbevordering,Subsidies (regelingen),2024,42177,20664,104.1,over,8
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Subsidies (regelingen),2023,9346,4596,103.4,over,6
+"Onderwijs, Cultuur en Wetenschap",BPRC,Subsidies (regelingen),2023,23978,11829,102.7,over,6
+"Onderwijs, Cultuur en Wetenschap",Convenanten met RMC-regio's,Bekostiging,2023,17346,8566,102.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Investeringsbudget,Bekostiging,2019,381329,189834,100.9,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,RvIG,Bijdrage aan agentschappen,2019,45465,22699,100.3,over,7
+"Onderwijs, Cultuur en Wetenschap",Prestatiebox,Bekostiging,2022,-440,281943,-100.2,under,6
+Justitie en Veiligheid,Bureau Financieel Toezicht,Bijdrage aan ZBOs en RWTs,2023,0,5560,-100.0,under,6
+BES-fonds,Vrije uitkering,Bijdrage aan medeoverheden,2022,0,31874,-100.0,under,7
+Sociale Zaken en Werkgelegenheid,Kennisinfrastructuur,Subsidies (regelingen),2021,0,1798,-100.0,under,8
+Infrastructuur en Waterstaat,Besluit financiële bepalingen bodemsanering: Bedrijvenregeling bodemsanering,Subsidies (regelingen),2022,0,1993,-100.0,under,6
+Financiën,Waarderingskamer,Bijdrage aan ZBOs en RWTs,2020,0,1888,-100.0,under,7
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten UWV,Bijdrage aan ZBOs en RWTs,2019,0,188000,-100.0,under,8
+Justitie en Veiligheid,Dienst Justis,Bijdrage aan agentschappen,2023,0,3659,-100.0,under,6
+Financiën,Waarderingskamer,Bijdrage aan ZBOs en RWTs,2021,0,1259,-100.0,under,7
+Gemeentefonds,Algemene uitkering,Bijdrage aan medeoverheden,2021,0,22809415,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,DUO,Bijdrage aan agentschappen,2021,0,29685,-100.0,under,8
+Gemeentefonds,Decentralisatie-uitkeringen,Bijdrage aan medeoverheden,2023,0,1806805,-100.0,under,5
+"Onderwijs, Cultuur en Wetenschap",Rentedragende lening (NR),Leningen,2020,0,2568885,-100.0,under,8
+Gemeentefonds,Algemene uitkering,Bijdrage aan medeoverheden,2023,0,20179419,-100.0,under,8
+Infrastructuur en Waterstaat,Wet Personenvervoer 2000,Subsidies (regelingen),2022,0,2792,-100.0,under,6
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten SVB,Bijdrage aan ZBOs en RWTs,2020,0,35848,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten UWV,Bijdrage aan ZBOs en RWTs,2022,0,162392,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten SVB,Bijdrage aan ZBOs en RWTs,2022,0,49705,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Regionaal programma,Bekostiging,2022,0,30510,-100.0,under,8
+Justitie en Veiligheid,CJIB,Bijdrage aan agentschappen,2023,0,105946,-100.0,under,6
+Justitie en Veiligheid,Autoriteit Persoonsgegevens,Bijdrage aan ZBOs en RWTs,2023,0,18426,-100.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Salarismix Randstadregio's,Bekostiging,2019,0,21146,-100.0,under,7
+Justitie en Veiligheid,Brede Doeluitkering Rampenbestrijding,Bijdrage aan medeoverheden,2023,0,119719,-100.0,under,6
+Justitie en Veiligheid,Halt,Bijdrage aan ZBOs en RWTs,2023,0,7906,-100.0,under,6
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten UWV,Bijdrage aan ZBOs en RWTs,2020,0,125334,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Convenanten met RMC-regio's,Bekostiging,2020,0,4282,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Kennisinfrastructuur,Subsidies (regelingen),2020,0,2745,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging Caribisch Nederland,Bekostiging,2020,0,13117,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Nationaal Agentschap Erasmus+ Onderwijs & Training,Bijdrage aan (inter-)nationale organisaties,2021,0,2073,-100.0,under,8
+"Landbouw, Natuur en Voedselkwaliteit",Aanvullende onderwijssubsidies,Subsidies (regelingen),2020,0,1747,-100.0,under,7
+"Landbouw, Natuur en Voedselkwaliteit",Aanvullende onderwijssubsidies,Subsidies (regelingen),2021,0,1165,-100.0,under,7
+"Landbouw, Natuur en Voedselkwaliteit",Missiegedreven Topsectoren,Subsidies (regelingen),2020,0,25915,-100.0,under,7
+"Landbouw, Natuur en Voedselkwaliteit",Missiegedreven Topsectoren,Subsidies (regelingen),2021,0,17277,-100.0,under,7
+"Landbouw, Natuur en Voedselkwaliteit",Onderzoeksprogrammering,Subsidies (regelingen),2020,0,19398,-100.0,under,7
+"Landbouw, Natuur en Voedselkwaliteit",Onderzoeksprogrammering,Subsidies (regelingen),2021,0,12932,-100.0,under,7
+Sociale Zaken en Werkgelegenheid,Overige subsidies,Subsidies (regelingen),2022,0,2924,-100.0,under,7
+"Onderwijs, Cultuur en Wetenschap",Bekostiging Caribisch Nederland,Bekostiging,2019,0,19675,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging flexibel ho voor volwassenen,Bekostiging,2021,0,4743,-100.0,under,8
+Koninkrijksrelaties,Grensbewaking (Defensie),Bijdrage aan (andere) begrotingshoofdstukken,2023,0,4337,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Agentschap RIVM,Bijdrage aan agentschappen,2022,0,4786,-100.0,under,7
+Sociale Zaken en Werkgelegenheid,Overige subsidies,Subsidies (regelingen),2021,0,4479,-100.0,under,7
+"Onderwijs, Cultuur en Wetenschap",Inhaal-en ondersteuningsprogramma's,Subsidies (regelingen),2023,0,97997,-100.0,under,4
+"Onderwijs, Cultuur en Wetenschap",Inhaal-en ondersteuningsprogramma's,Subsidies (regelingen),2022,53,146970,-100.0,under,4
+Sociale Zaken en Werkgelegenheid,Overige subsidies,Subsidies (regelingen),2020,0,6718,-100.0,under,7
+"Onderwijs, Cultuur en Wetenschap",Collegegeldkrediet (NR),Leningen,2020,0,335627,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Financien,Bijdrage aan (andere) begrotingshoofdstukken,2020,0,1034,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Gemeentelijk onderwijsachterstandenbeleid,Bijdrage aan medeoverheden,2020,0,88864,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Gemeentelijk onderwijsachterstandenbeleid,Bijdrage aan medeoverheden,2019,0,133296,-100.0,under,8
+Koninkrijksrelaties,Overige bijstand aan de landen,Bijdrage aan medeoverheden,2023,0,10864,-100.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Nationaal Agentschap Erasmus+ Onderwijs & Training,Bijdrage aan (inter-)nationale organisaties,2022,0,2073,-100.0,under,8
+Justitie en Veiligheid,Leger des Heils,Bijdrage aan ZBOs en RWTs,2023,0,16373,-100.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Onderwijsdeel wo,Bekostiging,2021,0,2291994,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten SVB,Bijdrage aan ZBOs en RWTs,2019,0,53772,-100.0,under,8
+Justitie en Veiligheid,Onderzoeksraad voor Veiligheid,Bijdrage aan ZBOs en RWTs,2023,0,11018,-100.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Salarismix Randstadregio's,Bekostiging,2020,0,14098,-100.0,under,7
+Justitie en Veiligheid,Opsporing,Subsidies (regelingen),2023,0,1554,-100.0,under,6
+Justitie en Veiligheid,Politie,Bijdrage aan ZBOs en RWTs,2023,0,4483597,-100.0,under,6
+Justitie en Veiligheid,Politie,Bijdrage aan ZBOs en RWTs,2024,-7,4483597,-100.0,under,6
+Justitie en Veiligheid,Politieacademie,Bijdrage aan ZBOs en RWTs,2023,0,2095,-100.0,under,6
+Justitie en Veiligheid,REAN-regeling,Subsidies (regelingen),2023,0,3464,-100.0,under,6
+Justitie en Veiligheid,Reclassering Nederland,Bijdrage aan ZBOs en RWTs,2023,0,109368,-100.0,under,6
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten IB,Bijdrage aan ZBOs en RWTs,2022,0,5833,-100.0,under,8
+Koninkrijksrelaties,Grensbewaking (Defensie),Bijdrage aan (andere) begrotingshoofdstukken,2021,0,4146,-100.0,under,8
+Justitie en Veiligheid,Regionale Informatie en Expertise Centra,Bijdrage aan medeoverheden,2023,0,7171,-100.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Convenanten met RMC-regio's,Bekostiging,2019,0,6424,-100.0,under,8
+Justitie en Veiligheid,Stichting Verslavingsreclassering GGZ,Bijdrage aan ZBOs en RWTs,2023,0,53699,-100.0,under,6
+Koninkrijksrelaties,Bijdrage landen,Bijdrage aan medeoverheden,2019,0,3399,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten IB,Bijdrage aan ZBOs en RWTs,2020,0,2236,-100.0,under,8
+Koninkrijksrelaties,Bijdrage landen,Bijdrage aan medeoverheden,2023,0,7922,-100.0,under,8
+Sociale Zaken en Werkgelegenheid,Uitvoeringskosten IB,Bijdrage aan ZBOs en RWTs,2019,0,3354,-100.0,under,8
+Koninkrijksrelaties,Grensbewaking (Defensie),Bijdrage aan (andere) begrotingshoofdstukken,2019,0,6100,-100.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Nationaal Agentschap Erasmus+ Onderwijs & Training,Bijdrage aan (inter-)nationale organisaties,2023,0,1051,-100.0,under,8
+Koninkrijksrelaties,Bijdrage landen,Bijdrage aan medeoverheden,2021,0,1921,-100.0,under,8
+BES-fonds,Vrije uitkering,Bijdrage aan medeoverheden,2021,0,44890,-100.0,under,7
+Financiën,Muntcirculatie,Bekostiging,2022,0,2083,-100.0,under,8
+Economische Zaken en Klimaat,Bijdrage aan NWO-TTW,Bijdrage aan ZBOs en RWTs,2021,0,26840,-100.0,under,6
+Buitenlandse Zaken,OVSE,Bijdrage aan (inter-)nationale organisaties,2019,0,5464,-100.0,under,8
+Buitenlandse Zaken,OVSE,Bijdrage aan (inter-)nationale organisaties,2020,0,3643,-100.0,under,8
+Buitenlandse Zaken,Raad van Europa,Bijdrage aan (inter-)nationale organisaties,2019,0,9881,-100.0,under,7
+Buitenlandse Zaken,Raad van Europa,Bijdrage aan (inter-)nationale organisaties,2020,0,6587,-100.0,under,7
+Buitenlandse Zaken,Subsidieregeling BZ 2006,Subsidies (regelingen),2021,0,58657,-100.0,under,7
+Buitenlandse Zaken,Subsidieregeling BZ 2006,Subsidies (regelingen),2022,0,39454,-100.0,under,7
+Buitenlandse Zaken,VN-contributie voor crisisbeheersingsoperaties,Bijdrage aan (inter-)nationale organisaties,2019,0,83148,-100.0,under,8
+Buitenlandse Zaken,VN-contributie voor crisisbeheersingsoperaties,Bijdrage aan (inter-)nationale organisaties,2020,0,55432,-100.0,under,8
+Buitenlandse Zaken,Veiligheidsfonds,Bijdrage aan (inter-)nationale organisaties,2019,0,1200,-100.0,under,8
+Buitenlandse Zaken,Verenigde Naties,Bijdrage aan (inter-)nationale organisaties,2019,0,33961,-100.0,under,8
+Buitenlandse Zaken,Verenigde Naties,Bijdrage aan (inter-)nationale organisaties,2020,0,22641,-100.0,under,8
+Economische Zaken en Klimaat,Bijdrage Metrologie,Bijdrage aan ZBOs en RWTs,2021,0,10100,-100.0,under,6
+Economische Zaken en Klimaat,Bijdrage aan ACM,Bijdrage aan ZBOs en RWTs,2024,15,721480,-100.0,under,5
+Economische Zaken en Klimaat,Bijdrage aan NWO-TTW,Bijdrage aan ZBOs en RWTs,2022,0,17893,-100.0,under,6
+Buitenlandse Zaken,OESO,Bijdrage aan (inter-)nationale organisaties,2020,0,4438,-100.0,under,8
+Economische Zaken en Klimaat,Bijdrage aan TNO,Bijdrage aan ZBOs en RWTs,2022,0,195650,-100.0,under,6
+Economische Zaken en Klimaat,Co-FIN ERA-NET Energiecall,Subsidies (regelingen),2021,0,2178,-100.0,under,6
+Economische Zaken en Klimaat,EUROSTARS,Subsidies (regelingen),2021,0,16916,-100.0,under,6
+Economische Zaken en Klimaat,Economische ontwikkeling en technologie,Bijdrage aan (inter-)nationale organisaties,2023,0,5006,-100.0,under,5
+Economische Zaken en Klimaat,European Space Agency,Bijdrage aan (inter-)nationale organisaties,2021,0,82466,-100.0,under,6
+Economische Zaken en Klimaat,INTERNATIONAAL_INNOVEREN,Bijdrage aan (inter-)nationale organisaties,2021,0,36566,-100.0,under,6
+Economische Zaken en Klimaat,INTERREG Incidentele Subsidies,Subsidies (regelingen),2021,0,1820,-100.0,under,6
+Economische Zaken en Klimaat,Innovatieregeling Demonstratieprojecten,Subsidies (regelingen),2021,0,41645,-100.0,under,6
+Economische Zaken en Klimaat,Invest-NL,Subsidies (regelingen),2021,0,4488,-100.0,under,6
+Economische Zaken en Klimaat,MJA FAC. EZ PROFIT,Subsidies (regelingen),2021,0,1318,-100.0,under,6
+Economische Zaken en Klimaat,MKB Idee,Subsidies (regelingen),2021,0,3800,-100.0,under,6
+Economische Zaken en Klimaat,MKB Innovatiestimulering Topsectoren,Subsidies (regelingen),2021,0,9280,-100.0,under,5
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Bijdrage aan (inter-)nationale organisaties,2021,0,13724,-100.0,under,6
+Buitenlandse Zaken,OPCW en andere ontwapeningsorganisaties,Bijdrage aan (inter-)nationale organisaties,2019,0,1230,-100.0,under,8
+Buitenlandse Zaken,OESO,Bijdrage aan (inter-)nationale organisaties,2019,0,6657,-100.0,under,8
+Economische Zaken en Klimaat,Stimuleringsregeling Duurzame Energieproductie,Subsidies (regelingen),2022,0,1180970,-100.0,under,5
+Buitenlandse Zaken,Contra-terrorisme,Bijdrage aan (inter-)nationale organisaties,2019,0,4215,-100.0,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Bouwregelgeving en bouwkwaliteit,Subsidies (regelingen),2022,0,8546,-100.0,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,Energiebesparing Koopsector,Subsidies (regelingen),2020,0,5339,-100.0,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,RVB (Bijdr monument),Bijdrage aan agentschappen,2021,0,3840,-100.0,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,RVB (Bijdr voor AZ),Bijdrage aan agentschappen,2021,0,2469,-100.0,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,RVO,Bijdrage aan agentschappen,2019,0,4804,-100.0,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,RVO,Bijdrage aan agentschappen,2020,0,3202,-100.0,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,RVO,Bijdrage aan agentschappen,2021,0,3191,-100.0,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,RWS,Bijdrage aan agentschappen,2020,0,3724,-100.0,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,SAIP,Bijdrage aan ZBOs en RWTs,2021,0,8241,-100.0,under,5
+Buitenlandse Zaken,Benelux bijdrage,Bijdrage aan (inter-)nationale organisaties,2019,0,3922,-100.0,under,7
+Buitenlandse Zaken,Benelux bijdrage,Bijdrage aan (inter-)nationale organisaties,2020,0,2614,-100.0,under,7
+Buitenlandse Zaken,CTBTO,Bijdrage aan (inter-)nationale organisaties,2019,0,1608,-100.0,under,8
+Buitenlandse Zaken,CTBTO,Bijdrage aan (inter-)nationale organisaties,2020,0,1072,-100.0,under,8
+Buitenlandse Zaken,Contra-terrorisme,Bijdrage aan (inter-)nationale organisaties,2020,0,2810,-100.0,under,8
+Buitenlandse Zaken,NAVO,Bijdrage aan (inter-)nationale organisaties,2020,0,6424,-100.0,under,8
+Buitenlandse Zaken,Europees Ontwikkelingsfonds,Bijdrage aan (inter-)nationale organisaties,2019,0,203366,-100.0,under,6
+Buitenlandse Zaken,Europees Ontwikkelingsfonds,Bijdrage aan (inter-)nationale organisaties,2020,0,135577,-100.0,under,6
+Buitenlandse Zaken,IAEA,Bijdrage aan (inter-)nationale organisaties,2019,0,6848,-100.0,under,8
+Buitenlandse Zaken,IAEA,Bijdrage aan (inter-)nationale organisaties,2020,0,4565,-100.0,under,8
+Buitenlandse Zaken,Internationaal Strafhof,Bijdrage aan (inter-)nationale organisaties,2019,0,2924,-100.0,under,8
+Buitenlandse Zaken,Internationaal Strafhof,Bijdrage aan (inter-)nationale organisaties,2020,0,1950,-100.0,under,8
+Buitenlandse Zaken,Internationaal recht,Bijdrage aan (inter-)nationale organisaties,2019,0,2914,-100.0,under,8
+Buitenlandse Zaken,Internationaal recht,Bijdrage aan (inter-)nationale organisaties,2020,0,1943,-100.0,under,8
+Buitenlandse Zaken,Internationaal recht,Bijdrage aan (inter-)nationale organisaties,2021,0,1414,-100.0,under,8
+Buitenlandse Zaken,Invoerrechten,Bijdrage aan (inter-)nationale organisaties,2020,0,3217786,-100.0,under,5
+Buitenlandse Zaken,Mensenrechtenfonds 2017- 2020,Subsidies (regelingen),2021,0,2327,-100.0,under,7
+Buitenlandse Zaken,Mensenrechtenfonds 2017- 2020,Subsidies (regelingen),2022,0,2327,-100.0,under,7
+Buitenlandse Zaken,NAVO,Bijdrage aan (inter-)nationale organisaties,2019,0,9636,-100.0,under,8
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Subsidies (regelingen),2021,0,8464,-100.0,under,6
+Justitie en Veiligheid,DJI - jeugd,Bijdrage aan agentschappen,2023,0,121491,-100.0,under,6
+Economische Zaken en Klimaat,Topconsortia voor Kennis en Innovatie,Bijdrage aan (inter-)nationale organisaties,2021,0,121396,-100.0,under,6
+Economische Zaken en Klimaat,Subsidieregeling Duurzame Scheepsbouw,Subsidies (regelingen),2021,0,1470,-100.0,under,5
+Economische Zaken en Klimaat,Versnelde klimaatinvestingen in de industrie,Subsidies (regelingen),2021,0,5010,-100.0,under,6
+Financiën,Muntcirculatie,Bekostiging,2020,0,4544,-100.0,under,8
+Financiën,Kamer van Koophandel,Bijdrage aan ZBOs en RWTs,2021,0,2071,-100.0,under,6
+Economische Zaken en Klimaat,Uitkering aankoop woningen onder hoogspanningsverb,Bijdrage aan medeoverheden,2021,0,12494,-100.0,under,6
+Economische Zaken en Klimaat,Topsector Energie,Subsidies (regelingen),2021,0,64380,-100.0,under,7
+Justitie en Veiligheid,Politieacademie,Bijdrage aan ZBOs en RWTs,2024,3,2095,-99.9,under,6
+Defensiematerieelbegrotingsfonds,Technologieontwikkeling,Bekostiging,2024,35,32456,-99.9,under,4
+Defensie,Kennisopbouw TNO via EZ,Bijdrage aan (andere) begrotingshoofdstukken,2024,81,75755,-99.9,under,5
+"Onderwijs, Cultuur en Wetenschap",Scholenprogramma Groningen,Bijdrage aan medeoverheden,2023,5994,2999,99.9,over,4
+Defensie,Kennisopbouw MARIN via EZ,Bijdrage aan (andere) begrotingshoofdstukken,2024,4,3797,-99.9,under,5
+"Onderwijs, Cultuur en Wetenschap",Dienst Uitvoering Onderwijs (DUO)-programma,Bijdrage aan agentschappen,2021,74,50956,-99.9,under,4
+Defensie,Kennisopbouw NLR via EZ,Bijdrage aan (andere) begrotingshoofdstukken,2024,4,5512,-99.9,under,5
+"Onderwijs, Cultuur en Wetenschap",Regionaal Programma,Bijdrage aan medeoverheden,2023,38350,19197,99.8,over,7
+Economische Zaken en Klimaat,Tijdelijke Regeling Subsidie Evenementen Covid-19,Subsidies (regelingen),2024,121,60478,-99.8,under,4
+Justitie en Veiligheid,Reclassering Nederland,Bijdrage aan ZBOs en RWTs,2024,188,109368,-99.8,under,6
+Justitie en Veiligheid,CJIB,Bijdrage aan agentschappen,2024,216,105946,-99.8,under,6
+Justitie en Veiligheid,Bureau Financieel Toezicht,Bijdrage aan ZBOs en RWTs,2024,11,5560,-99.8,under,6
+"Onderwijs, Cultuur en Wetenschap",Nationaal Archief (NA)-programma,Bijdrage aan agentschappen,2022,20,9870,-99.8,under,6
+Justitie en Veiligheid,Stichting Verslavingsreclassering GGZ,Bijdrage aan ZBOs en RWTs,2024,89,53699,-99.8,under,6
+Justitie en Veiligheid,Opsporing,Subsidies (regelingen),2024,3,1554,-99.8,under,6
+Buitenlandse Zaken,Stabiliteitsfonds,Bijdrage aan (inter-)nationale organisaties,2023,108122,54112,99.8,over,4
+Justitie en Veiligheid,Leger des Heils,Bijdrage aan ZBOs en RWTs,2024,28,16373,-99.8,under,6
+Justitie en Veiligheid,Autoriteit Persoonsgegevens,Bijdrage aan ZBOs en RWTs,2024,46,18426,-99.8,under,6
+Koninkrijksrelaties,Grensbewaking (Defensie),Bijdrage aan (andere) begrotingshoofdstukken,2024,7,2224,-99.7,under,8
+Economische Zaken en Klimaat,Groeifaciliteit,Garanties,2021,15,3618,-99.6,under,6
+Economische Zaken en Klimaat,Economische ontwikkeling en technologie,Bijdrage aan (inter-)nationale organisaties,2024,21,4312,-99.5,under,5
+"Onderwijs, Cultuur en Wetenschap",Convenanten met RMC-regio's,Bekostiging,2024,99,14348,-99.3,under,8
+Financiën,Overige internationale organisaties,Bijdrage aan (inter-)nationale organisaties,2022,23,2737,-99.2,under,5
+"Landbouw, Natuur en Voedselkwaliteit",Subsidieregeling sanering Varkenshouderijen,Subsidies (regelingen),2024,769,81554,-99.1,under,5
+"Landbouw, Natuur en Voedselkwaliteit",Nadeelcompensatie Pelsdierhouderijen,Subsidies (regelingen),2024,444,47397,-99.1,under,4
+Justitie en Veiligheid,Dienst Justis,Bijdrage aan agentschappen,2024,36,3659,-99.0,under,6
+Defensie,Bekostiging diverse instellingen,Bekostiging,2024,105,7906,-98.7,under,5
+"Onderwijs, Cultuur en Wetenschap",Poolonderzoek,Bekostiging,2023,6294,3170,98.5,over,8
+"Onderwijs, Cultuur en Wetenschap",NWO Talentenontwikkeling,Bekostiging,2023,331770,167110,98.5,over,8
+"Onderwijs, Cultuur en Wetenschap",NWO STT,Bekostiging,2023,16000,8059,98.5,over,4
+"Onderwijs, Cultuur en Wetenschap",NWO Grootschalige researchinfrastructuur,Bekostiging,2023,110760,55789,98.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Kust en zeeonderzoek,Bekostiging,2023,5000,2518,98.5,over,7
+Economische Zaken en Klimaat,Stimuleringsregeling Duurzame Energieproductie,Subsidies (regelingen),2023,12114,787313,-98.5,under,5
+"Landbouw, Natuur en Voedselkwaliteit",Ongedekte Vaste Kosten regeling COVID-19,Subsidies (regelingen),2024,752,43352,-98.3,under,4
+"Landbouw, Natuur en Voedselkwaliteit",Nadeelcompensatie Pelsdierhouderijen,Subsidies (regelingen),2023,1190,70501,-98.3,under,4
+Koninkrijksrelaties,Bijdrage landen,Bijdrage aan medeoverheden,2024,120,6795,-98.2,under,8
+Economische Zaken en Klimaat,Green Deals,Subsidies (regelingen),2021,25,1374,-98.2,under,4
+Defensie,Subsidies,Subsidies (regelingen),2024,1116,48522,-97.7,under,5
+Financiën,Bijdrage Logius,Bijdrage aan agentschappen,2024,1265,49261,-97.4,under,6
+Economische Zaken en Klimaat,Regeling subsidie financiering vaste lasten MKB COVID-19,Subsidies (regelingen),2024,37007,1320044,-97.2,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,Geo-informatie,Bijdrage aan ZBOs en RWTs,2023,148,5029,-97.1,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,RWS (leefomgeving),Bijdrage aan agentschappen,2023,11946,6063,97.0,over,5
+Justitie en Veiligheid,REAN-regeling,Subsidies (regelingen),2021,5461,2774,96.9,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan medeoverheden,2022,39,1231,-96.8,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan (andere) begrotingshoofdstukken,2021,44,1279,-96.6,under,4
+"Onderwijs, Cultuur en Wetenschap",Nationaal Archief (NA)-programma,Bijdrage aan agentschappen,2021,500,14355,-96.5,under,6
+Economische Zaken en Klimaat,INTERREG Incidentele Subsidies,Subsidies (regelingen),2022,45,1214,-96.3,under,6
+Financiën,Bijdrage FEC,Bijdrage aan ZBOs en RWTs,2022,4511,2301,96.1,over,6
+Buitenlandse Zaken,Mensenrechtenfonds Kleine Activiteiten 2014,Subsidies (regelingen),2019,97,2452,-96.0,under,4
+Gemeentefonds,Integratie-uitkering Participatie,Bijdrage aan medeoverheden,2023,3867938,1973932,96.0,over,4
+"Onderwijs, Cultuur en Wetenschap",EMBC,Bijdrage aan (inter-)nationale organisaties,2023,2482,1267,95.9,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,RDW,Bijdrage aan ZBOs en RWTs,2023,530,12565,-95.8,under,7
+Koninkrijksrelaties,Overige bijstand aan de landen,Bijdrage aan medeoverheden,2024,498,10864,-95.4,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Gemeenten,Bijdrage aan medeoverheden,2022,150,3100,-95.2,under,6
+Buitenlandse Zaken,Mensenrechtenfonds Kleine Activiteiten 2014,Subsidies (regelingen),2020,82,1667,-95.1,under,4
+Economische Zaken en Klimaat,IP en Valorisatie Oncode,Leningen,2023,3600,1846,95.0,over,5
+Gemeentefonds,Algemene uitkering,Bijdrage aan medeoverheden,2022,33721223,17311289,94.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Nuffic,Subsidies (regelingen),2024,287,5244,-94.5,under,4
+BES-fonds,Vrije uitkering,Bijdrage aan medeoverheden,2023,934,17101,-94.5,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,CBS,Bijdrage aan ZBOs en RWTs,2021,63,1104,-94.3,under,6
+Infrastructuur en Waterstaat,Incidenteel,Subsidies (regelingen),2022,14947,220256,-93.2,under,6
+Financiën,Bijdrage Logius,Bijdrage aan agentschappen,2023,3334,48150,-93.1,under,6
+Defensiematerieelbegrotingsfonds,Kennisgebruik,Bekostiging,2024,554,7923,-93.0,under,4
+Economische Zaken en Klimaat,Green Deals,Subsidies (regelingen),2020,141,1990,-92.9,under,4
+"Onderwijs, Cultuur en Wetenschap",Nederlands onderwijs buitenland,Subsidies (regelingen),2023,23396,12132,92.8,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse subsidies,Subsidies (regelingen),2022,2069,28475,-92.7,under,6
+Financiën,Overige internationale organisaties,Bijdrage aan (inter-)nationale organisaties,2021,289,3961,-92.7,under,5
+"Landbouw, Natuur en Voedselkwaliteit",Energie-efficiëntie Glastuinbouw,Subsidies (regelingen),2024,1283,17042,-92.5,under,6
+Justitie en Veiligheid,DJI - jeugd,Bijdrage aan agentschappen,2024,233925,121491,92.5,over,6
+Infrastructuur en Waterstaat,Incidenteel,Subsidies (regelingen),2021,16645,218623,-92.4,under,6
+Economische Zaken en Klimaat,MKB Idee,Subsidies (regelingen),2024,298,3946,-92.4,under,6
+Justitie en Veiligheid,Regionale Informatie en Expertise Centra,Bijdrage aan medeoverheden,2024,551,7171,-92.3,under,6
+Justitie en Veiligheid,Brede Doeluitkering Rampenbestrijding,Bijdrage aan medeoverheden,2021,176494,92020,91.8,over,6
+Buitenlandse Zaken,Mensenrechten multilateraal,Bijdrage aan (inter-)nationale organisaties,2023,21620,11278,91.7,over,4
+Economische Zaken en Klimaat,MKB Innovatiestimulering Topsectoren,Subsidies (regelingen),2023,250,2875,-91.3,under,5
+"Onderwijs, Cultuur en Wetenschap",Dotatie/onttrekking Algemene Mediareserve,Bekostiging,2023,76338,39981,90.9,over,8
+Economische Zaken en Klimaat,MKB Innovatiestimulering Topsectoren,Subsidies (regelingen),2022,572,6187,-90.8,under,5
+"Landbouw, Natuur en Voedselkwaliteit",Energie-efficiëntie Glastuinbouw,Subsidies (regelingen),2021,17265,9056,90.7,over,6
+"Landbouw, Natuur en Voedselkwaliteit",Innovatie en Prestatie Contracten voor Duurzame Vi,Subsidies (regelingen),2023,126,1354,-90.7,under,6
+"Onderwijs, Cultuur en Wetenschap",Creatieve Industrie,Subsidies (regelingen),2023,3748,1973,90.0,over,8
+Economische Zaken en Klimaat,MJA FAC. EZ PROFIT,Subsidies (regelingen),2024,154,1492,-89.7,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse subsidies,Subsidies (regelingen),2021,3042,29194,-89.6,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,SAH,Subsidies (regelingen),2022,3773,35790,-89.5,under,4
+"Landbouw, Natuur en Voedselkwaliteit",Subsidieregeling sanering Varkenshouderijen,Subsidies (regelingen),2023,9166,86916,-89.5,under,5
+Infrastructuur en Waterstaat,Subsidieregeling Demonstratie Klimaattechnologieën en – innovaties in transport,Subsidies (regelingen),2022,29727,15685,89.5,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,RvIG,Bijdrage aan agentschappen,2023,109908,58074,89.3,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,Overheidsdienstverlening,Subsidies (regelingen),2022,7465,3942,89.3,over,4
+Koninkrijksrelaties,Versterken bestuurs- en uitvoeringskracht,Bijdrage aan medeoverheden,2022,11447,6051,89.2,over,4
+Justitie en Veiligheid,REAN-regeling,Subsidies (regelingen),2024,6545,3464,88.9,over,6
+Economische Zaken en Klimaat,Verduurzaming industrie,Subsidies (regelingen),2020,518,4542,-88.6,under,4
+"Onderwijs, Cultuur en Wetenschap",Bekostiging flexibel ho voor volwassenen,Bekostiging,2023,3326,1774,87.5,over,8
+Justitie en Veiligheid,CJIB,Bijdrage aan agentschappen,2022,166967,89029,87.5,over,6
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Subsidies (regelingen),2021,4619,2466,87.3,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse subsidies,Subsidies (regelingen),2023,3620,28365,-87.2,under,6
+Infrastructuur en Waterstaat,Subsidieregeling waterveiligheid en waterzekerheid stedelijke delta's,Subsidies (regelingen),2021,380,2817,-86.5,under,5
+Justitie en Veiligheid,Autoriteit Persoonsgegevens,Bijdrage aan ZBOs en RWTs,2022,29020,15583,86.2,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Woningmarkt,Subsidies (regelingen),2022,12789,6888,85.7,over,5
+Koninkrijksrelaties,Overige bijstand aan de landen,Bijdrage aan medeoverheden,2022,12441,6722,85.1,over,6
+Financiën,Kamer van Koophandel,Bijdrage aan ZBOs en RWTs,2022,211,1381,-84.7,under,6
+Koninkrijksrelaties,Schuldsanering,Leningen,2019,28517,179706,-84.1,under,6
+Justitie en Veiligheid,Onderzoeksraad voor Veiligheid,Bijdrage aan ZBOs en RWTs,2022,17460,9510,83.6,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,KvK,Bijdrage aan ZBOs en RWTs,2023,956,5800,-83.5,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Werkgeversbeleid,Bijdrage aan ZBOs en RWTs,2023,3252,1774,83.3,over,5
+"Onderwijs, Cultuur en Wetenschap",ESO,Bijdrage aan (inter-)nationale organisaties,2022,16695,9109,83.3,over,8
+Defensie,Bijdrage aan internationale samenwerking,Bijdrage aan (inter-)nationale organisaties,2024,1860,11101,-83.2,under,4
+"Onderwijs, Cultuur en Wetenschap",ESO,Bijdrage aan (inter-)nationale organisaties,2023,21608,11799,83.1,over,8
+"Onderwijs, Cultuur en Wetenschap",Museale instellingen met een wettelijke taak,Bekostiging,2023,498988,273336,82.6,over,4
+Buitenlandse Zaken,OESO,Bijdrage aan (inter-)nationale organisaties,2024,2513,14294,-82.4,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Woningmarkt,Bijdrage aan ZBOs en RWTs,2021,2790,1532,82.1,over,5
+"Landbouw, Natuur en Voedselkwaliteit",Subsidiemodule agrarische bedrijfsadvisering en educatie,Subsidies (regelingen),2024,2157,11742,-81.6,under,4
+Infrastructuur en Waterstaat,Subsidieregeling versterking omgevingsveiligheid BRZO-sector,Subsidies (regelingen),2021,2367,1304,81.5,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Warmtefonds,Subsidies (regelingen),2022,85600,47200,81.4,over,4
+Sociale Zaken en Werkgelegenheid,COA,Bijdrage aan ZBOs en RWTs,2022,30956,17067,81.4,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Jong Leren Eten-Duurzaam Door2,Subsidies (regelingen),2022,684,3607,-81.0,under,6
+"Landbouw, Natuur en Voedselkwaliteit",RLS Garantstelling Landbouw,Garanties,2024,210,1070,-80.4,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,Eenvoudig Beter,Subsidies (regelingen),2022,1879,9548,-80.3,under,6
+Infrastructuur en Waterstaat,Subsidieregeling waterveiligheid en waterzekerheid stedelijke delta's,Subsidies (regelingen),2022,379,1898,-80.0,under,5
+"Onderwijs, Cultuur en Wetenschap",Leven Lang Ontwikkelen,Subsidies (regelingen),2022,6103,3396,79.7,over,5
+"Onderwijs, Cultuur en Wetenschap",Nationaal Agentschap Erasmus+ Onderwijs & Training,Bijdrage aan (inter-)nationale organisaties,2020,3154,1758,79.4,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Energiebesparing Koopsector,Subsidies (regelingen),2022,6950,32488,-78.6,under,6
+Economische Zaken en Klimaat,Innovatiekrediet,Leningen,2023,87178,48812,78.6,over,6
+Sociale Zaken en Werkgelegenheid,COA,Bijdrage aan ZBOs en RWTs,2019,10755,49142,-78.1,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Gebiedsontwikkeling,Bijdrage aan medeoverheden,2022,1143,5186,-78.0,under,5
+Binnenlandse Zaken en Koninkrijksrelaties,Eenvoudig Beter,Subsidies (regelingen),2023,2078,9385,-77.9,under,6
+Koninkrijksrelaties,Schuldsanering,Leningen,2020,28517,129310,-77.9,under,6
+"Landbouw, Natuur en Voedselkwaliteit",Subsidiemodule brongerichte Verduurzaming,Subsidies (regelingen),2022,9978,5614,77.7,over,5
+Infrastructuur en Waterstaat,Tijdelijke subsidieregeling Milieu Centraal 2018–2021,Subsidies (regelingen),2022,399,1782,-77.6,under,5
+Buitenlandse Zaken,Invoerrechten,Bijdrage aan (inter-)nationale organisaties,2021,3891582,2190644,77.6,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Gemeenten,Bijdrage aan medeoverheden,2021,709,3119,-77.3,under,6
+Economische Zaken en Klimaat,Co-FIN ERA-NET Energiecall,Subsidies (regelingen),2022,2569,1452,76.9,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Woningbouwimpuls,Bijdrage aan medeoverheden,2022,92517,397330,-76.7,under,4
+Buitenlandse Zaken,Cyber security,Bijdrage aan (inter-)nationale organisaties,2024,3900,2209,76.5,over,7
+Economische Zaken en Klimaat,Flankerend Beleid SDE+ (voorheen ISDE-Basis),Subsidies (regelingen),2024,75093,42593,76.3,over,5
+"Landbouw, Natuur en Voedselkwaliteit",Energie-efficiëntie Glastuinbouw,Subsidies (regelingen),2022,20769,11792,76.1,over,6
+"Onderwijs, Cultuur en Wetenschap",Nederlandse Taalunie,Bijdrage aan (inter-)nationale organisaties,2021,7323,4160,76.0,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Jong Leren Eten-Duurzaam Door2,Subsidies (regelingen),2024,440,1814,-75.7,under,6
+"Onderwijs, Cultuur en Wetenschap",Dotatie/onttrekking Algemene Mediareserve,Bekostiging,2021,48996,27903,75.6,over,8
+Koninkrijksrelaties,Diverse subsidies,Subsidies (regelingen),2024,1006,4104,-75.5,under,6
+"Onderwijs, Cultuur en Wetenschap",Tegemoetkoming kosten opleidingsscholen,Bekostiging,2019,4000,15585,-74.3,under,7
+"Onderwijs, Cultuur en Wetenschap",Leven lang leren krediet NR,Leningen,2023,42150,24236,73.9,over,4
+Buitenlandse Zaken,Internationaal recht,Bijdrage aan (inter-)nationale organisaties,2024,2737,10385,-73.6,under,8
+"Onderwijs, Cultuur en Wetenschap",Investeringsbudget,Bekostiging,2020,440031,253665,73.5,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Innovatie en Prestatie Contracten voor Duurzame Vi,Subsidies (regelingen),2024,277,1046,-73.5,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,RvIG,Bijdrage aan agentschappen,2020,52497,30288,73.3,over,7
+"Onderwijs, Cultuur en Wetenschap",Caribisch Nederland,Bijdrage aan medeoverheden,2020,6871,3974,72.9,over,8
+"Onderwijs, Cultuur en Wetenschap",Specifiek cultuurbeleid,Subsidies (regelingen),2024,51537,186821,-72.4,under,8
+Justitie en Veiligheid,Halt,Bijdrage aan ZBOs en RWTs,2024,13608,7906,72.1,over,6
+"Onderwijs, Cultuur en Wetenschap",Nuffic,Subsidies (regelingen),2023,1976,6878,-71.3,under,4
+Economische Zaken en Klimaat,Bijdrage Metrologie,Bijdrage aan ZBOs en RWTs,2022,11524,6733,71.1,over,6
+Sociale Zaken en Werkgelegenheid,DUO,Bijdrage aan agentschappen,2022,31708,18575,70.7,over,8
+Economische Zaken en Klimaat,Uitkering aankoop woningen onder hoogspanningsverb,Bijdrage aan medeoverheden,2022,2455,8329,-70.5,under,6
+"Onderwijs, Cultuur en Wetenschap",Flankerend beleid huisvesting,Bekostiging,2019,5024,17006,-70.5,under,7
+"Onderwijs, Cultuur en Wetenschap",Filmfonds van de omroep en Telefilm (COBO),Bekostiging,2022,2524,8535,-70.4,under,8
+Justitie en Veiligheid,Politie,Bijdrage aan ZBOs en RWTs,2022,7088433,4159542,70.4,over,6
+"Onderwijs, Cultuur en Wetenschap",Vierjaarlijkse fondsen,Bekostiging,2023,552570,325092,70.0,over,8
+Economische Zaken en Klimaat,Bijdrage aan NWO-TTW,Bijdrage aan ZBOs en RWTs,2024,23983,14123,69.8,over,6
+"Onderwijs, Cultuur en Wetenschap",Actieplan Laaggeletterdheid/Tel mee met taal,Subsidies (regelingen),2023,27794,16383,69.7,over,6
+"Onderwijs, Cultuur en Wetenschap",Vierjaarlijkse fondsen,Bekostiging,2020,312647,184320,69.6,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Woningmarkt,Bijdrage aan ZBOs en RWTs,2022,3311,1952,69.6,over,5
+Justitie en Veiligheid,Bureau Financieel Toezicht,Bijdrage aan ZBOs en RWTs,2022,8534,5034,69.5,over,6
+Economische Zaken en Klimaat,MKB-innovatiestimulering topsectoren,Subsidies (regelingen),2024,380,1235,-69.2,under,5
+Economische Zaken en Klimaat,Regeling subsidie financiering vaste lasten MKB COVID-19,Subsidies (regelingen),2023,472530,1529513,-69.1,under,5
+"Onderwijs, Cultuur en Wetenschap",NWO NWA,Bekostiging,2020,150280,89000,68.9,over,7
+Binnenlandse Zaken en Koninkrijksrelaties,RvIG,Bijdrage aan agentschappen,2021,58382,34626,68.6,over,7
+"Onderwijs, Cultuur en Wetenschap",Dotatie/onttrekking Algemene Mediareserve,Bekostiging,2020,29942,17768,68.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Overig bekostiging Primair Onderwijs,Bekostiging,2019,25093,14934,68.0,over,7
+"Onderwijs, Cultuur en Wetenschap",Open en online onderwijs,Subsidies (regelingen),2024,480,1494,-67.9,under,8
+Economische Zaken en Klimaat,EUROSTARS,Subsidies (regelingen),2022,18928,11277,67.8,over,6
+"Onderwijs, Cultuur en Wetenschap",Filmfonds van de omroep en Telefilm (COBO),Bekostiging,2023,11044,6598,67.4,over,8
+Sociale Zaken en Werkgelegenheid,COA,Bijdrage aan ZBOs en RWTs,2021,26231,15728,66.8,over,8
+Economische Zaken en Klimaat,Invest-NL,Subsidies (regelingen),2024,5623,16917,-66.8,under,6
+"Onderwijs, Cultuur en Wetenschap",Stichting Vervangingsfonds en Participatiefonds,Bijdrage aan ZBOs en RWTs,2023,22402,13482,66.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Vierjaarlijkse instellingen,Bekostiging,2023,484082,291236,66.2,over,7
+Economische Zaken en Klimaat,Tijdelijke Regeling Subsidie Evenementen Covid-19,Subsidies (regelingen),2023,26288,77573,-66.1,under,4
+"Onderwijs, Cultuur en Wetenschap",Aanvullende beurs prestatiebeurs (NR),Leningen,2024,244247,147148,66.0,over,4
+Economische Zaken en Klimaat,Uitkering aankoop woningen onder hoogspanningsverb,Bijdrage aan medeoverheden,2024,930,2656,-65.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Stichting EP-Nuffic,Bijdrage aan (inter-)nationale organisaties,2019,3858,11024,-65.0,under,4
+"Onderwijs, Cultuur en Wetenschap",Bekostiging flexibel ho voor volwassenen,Bekostiging,2020,2550,7287,-65.0,under,8
+Sociale Zaken en Werkgelegenheid,Landelijke Clientenraad,Bijdrage aan (inter-)nationale organisaties,2024,1787,1086,64.5,over,7
+"Onderwijs, Cultuur en Wetenschap",Stichting EP-Nuffic,Bijdrage aan (inter-)nationale organisaties,2020,3103,8635,-64.1,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,RDW,Bijdrage aan ZBOs en RWTs,2022,13659,8334,63.9,over,7
+Justitie en Veiligheid,Leger des Heils,Bijdrage aan ZBOs en RWTs,2022,25258,15411,63.9,over,6
+Infrastructuur en Waterstaat,Tijdelijke subsidieregeling Milieu Centraal 2018–2021,Subsidies (regelingen),2020,1860,1136,63.7,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,RWS,Bijdrage aan agentschappen,2021,908,2483,-63.4,under,6
+"Onderwijs, Cultuur en Wetenschap",Monumentenzorg,Bekostiging,2023,293094,179674,63.1,over,7
+"Landbouw, Natuur en Voedselkwaliteit",Jong Leren Eten-Duurzaam Door2,Subsidies (regelingen),2023,1174,3162,-62.9,under,6
+Infrastructuur en Waterstaat,Subsidieregeling versterking omgevingsveiligheid BRZO-sector,Subsidies (regelingen),2020,1755,1079,62.7,over,5
+Koninkrijksrelaties,Schuldsanering,Leningen,2021,28517,76489,-62.7,under,6
+"Onderwijs, Cultuur en Wetenschap",Pilots zomerscholen,Subsidies (regelingen),2022,2549,6628,-61.5,under,5
+Buitenlandse Zaken,Contra-terrorisme,Bijdrage aan (inter-)nationale organisaties,2023,3926,2433,61.4,over,8
+Buitenlandse Zaken,Cyber security,Bijdrage aan (inter-)nationale organisaties,2023,2318,1437,61.3,over,7
+Sociale Zaken en Werkgelegenheid,COA,Bijdrage aan ZBOs en RWTs,2020,14216,36347,-60.9,under,8
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Bekostiging,2019,8449,5250,60.9,over,8
+Justitie en Veiligheid,Reclassering Nederland,Bijdrage aan ZBOs en RWTs,2022,167668,104192,60.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Onderwijscoöperatie,Subsidies (regelingen),2019,739,1884,-60.8,under,5
+Justitie en Veiligheid,Politieacademie,Bijdrage aan ZBOs en RWTs,2022,3211,2000,60.5,over,6
+Infrastructuur en Waterstaat,Begroting,Subsidies (regelingen),2021,5348,13509,-60.4,under,6
+Justitie en Veiligheid,Stichting Verslavingsreclassering GGZ,Bijdrage aan ZBOs en RWTs,2022,82270,51378,60.1,over,6
+"Onderwijs, Cultuur en Wetenschap",UWV,Bijdrage aan ZBOs en RWTs,2022,2579,1620,59.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Convenanten met RMC-regio's,Bekostiging,2022,8872,5609,58.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Rentedragende lening (NR),Leningen,2024,1239412,2958720,-58.1,under,8
+"Onderwijs, Cultuur en Wetenschap",Reisvoorziening (NR),Leningen,2024,120166,283693,-57.6,under,4
+Infrastructuur en Waterstaat,Wet Personenvervoer 2000,Subsidies (regelingen),2020,1440,3380,-57.4,under,6
+Defensiematerieelbegrotingsfonds,Kort Cyclische Innovatie,Bekostiging,2024,15435,9821,57.2,over,4
+Economische Zaken en Klimaat,Besluit Borgstelling MKB,Garanties,2023,27518,17528,57.0,over,4
+Economische Zaken en Klimaat,INTERNATIONAAL_INNOVEREN,Bijdrage aan (inter-)nationale organisaties,2022,38247,24378,56.9,over,6
+Gemeentefonds,Algemene uitkering,Bijdrage aan medeoverheden,2019,25116832,16025164,56.7,over,8
+"Onderwijs, Cultuur en Wetenschap",Vierjaarlijkse fondsen,Bekostiging,2021,364048,233071,56.2,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Subsidieregeling sanering Varkenshouderijen,Subsidies (regelingen),2022,47026,106860,-56.0,under,5
+Koninkrijksrelaties,Grensbewaking (Defensie),Bijdrage aan (andere) begrotingshoofdstukken,2020,6339,4067,55.9,over,8
+"Landbouw, Natuur en Voedselkwaliteit",Regeling Versneld Natuurherstel,Subsidies (regelingen),2024,7977,18022,-55.7,under,4
+"Onderwijs, Cultuur en Wetenschap",NWO: Praktijkgericht onderzoek hbo,Bijdrage aan ZBOs en RWTs,2019,60813,39144,55.4,over,5
+Buitenlandse Zaken,Programma Ondersteuning Buitenlands Beleid,Bijdrage aan (inter-)nationale organisaties,2024,1489,3328,-55.3,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,Werkgeversbeleid,Bijdrage aan agentschappen,2022,3204,2063,55.3,over,5
+"Onderwijs, Cultuur en Wetenschap",NBC/Nationaal Herbarium,Subsidies (regelingen),2024,15203,9801,55.1,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Bestuur en regio,Subsidies (regelingen),2021,2694,1736,55.1,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,ICTU,Bijdrage aan ZBOs en RWTs,2022,22519,14558,54.7,over,6
+"Onderwijs, Cultuur en Wetenschap",Aanvullende regeling strategisch personeelsbeleid,Bekostiging,2024,126800,279496,-54.6,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,UBR,Bijdrage aan agentschappen,2021,19673,12734,54.5,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Geonovum,Bijdrage aan ZBOs en RWTs,2022,2089,4566,-54.2,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Aan de Slag,Bijdrage aan agentschappen,2022,48654,31605,53.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Nationaal Archief (NA),Bijdrage aan agentschappen,2022,52229,33982,53.7,over,8
+"Onderwijs, Cultuur en Wetenschap",Rentedragende lening (NR),Leningen,2022,2600352,1696927,53.2,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Aan de Slag,Bijdrage aan agentschappen,2021,43389,28328,53.2,over,6
+Financiën,Bijdrage Logius,Bijdrage aan agentschappen,2021,86271,56500,52.7,over,6
+"Onderwijs, Cultuur en Wetenschap",Flexibel ho volwasse,Bekostiging,2021,3564,7472,-52.3,under,4
+Financiën,Overige bijdrage ZBO's/RWT's,Bijdrage aan ZBOs en RWTs,2021,2281,4768,-52.2,under,6
+Justitie en Veiligheid,Brede Doeluitkering Rampenbestrijding,Bijdrage aan medeoverheden,2022,182664,120178,52.0,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,Geonovum,Bijdrage aan ZBOs en RWTs,2023,5358,3531,51.7,over,6
+"Onderwijs, Cultuur en Wetenschap",Subsidieregeling praktijkleren,Subsidies (regelingen),2023,528128,348663,51.5,over,8
+Sociale Zaken en Werkgelegenheid,DUO,Leningen,2020,79266,162766,-51.3,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,Overlegstelsel,Subsidies (regelingen),2021,1187,2408,-50.7,under,5
+"Onderwijs, Cultuur en Wetenschap",Dienst Uitvoering Onderwijs (DUO)-programma,Bijdrage aan agentschappen,2020,30469,61199,-50.2,under,4
+Financiën,Overig,Bijdrage aan ZBOs en RWTs,2024,4950,3298,50.1,over,4
+"Landbouw, Natuur en Voedselkwaliteit",Subsidiemodule brongerichte Verduurzaming,Subsidies (regelingen),2024,5975,11982,-50.1,under,5
+Economische Zaken en Klimaat,Hernieuwbare Energie,Subsidies (regelingen),2024,7916,15774,-49.8,under,5
+Koninkrijksrelaties,Bijdrage landen,Bijdrage aan medeoverheden,2020,3382,2266,49.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Rijksdienst voor Ondernemend Nederland-apparaat,Bijdrage aan agentschappen,2023,1928,1293,49.1,over,8
+Economische Zaken en Klimaat,Stimuleringsregeling Duurzame Energieproductie,Subsidies (regelingen),2024,402606,784448,-48.7,under,5
+"Onderwijs, Cultuur en Wetenschap",Flankerend beleid huisvesting,Bekostiging,2020,6700,13012,-48.5,under,7
+"Onderwijs, Cultuur en Wetenschap",KB,Bekostiging,2021,50956,98940,-48.5,under,8
+Justitie en Veiligheid,Onderzoeksraad voor Veiligheid,Bijdrage aan ZBOs en RWTs,2024,16315,11018,48.1,over,6
+"Onderwijs, Cultuur en Wetenschap",Verbreden inzet cultuur,Subsidies (regelingen),2021,8145,15679,-48.1,under,6
+"Onderwijs, Cultuur en Wetenschap",KB,Bekostiging,2024,144673,97826,47.9,over,8
+"Onderwijs, Cultuur en Wetenschap",Lerarenbeurs,Subsidies (regelingen),2024,42555,81545,-47.8,under,6
+"Onderwijs, Cultuur en Wetenschap",Nieuwe leerweg,Subsidies (regelingen),2023,12674,8594,47.5,over,5
+"Onderwijs, Cultuur en Wetenschap",Nationaal Archief (NA),Bijdrage aan agentschappen,2021,42588,28932,47.2,over,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging flexibel ho voor volwassenen,Bekostiging,2019,4582,8639,-47.0,under,8
+"Onderwijs, Cultuur en Wetenschap",UWV,Bijdrage aan ZBOs en RWTs,2021,2060,1402,47.0,over,8
+"Onderwijs, Cultuur en Wetenschap",Bekostiging flexibel ho voor volwassenen,Bekostiging,2024,1079,2033,-46.9,under,8
+"Onderwijs, Cultuur en Wetenschap",Vierjaarlijkse instellingen,Bekostiging,2020,356635,242778,46.9,over,7
+Sociale Zaken en Werkgelegenheid,DUO,Leningen,2021,70363,132286,-46.8,under,7
+"Landbouw, Natuur en Voedselkwaliteit",Subsidieregeling sloop- en ombouwkosten pelsdierhouderij,Subsidies (regelingen),2024,4582,8579,-46.6,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,Werkgeversbeleid,Bijdrage aan agentschappen,2021,2614,1788,46.2,over,5
+Buitenlandse Zaken,CTBTO,Bijdrage aan (inter-)nationale organisaties,2024,1821,3384,-46.2,under,8
+"Onderwijs, Cultuur en Wetenschap",Open en online onderwijs,Subsidies (regelingen),2023,966,1787,-45.9,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Logius,Bijdrage aan agentschappen,2019,52393,96728,-45.8,under,7
+"Onderwijs, Cultuur en Wetenschap",Rentedragende lening (NR),Leningen,2021,2476627,1698111,45.8,over,8
+"Onderwijs, Cultuur en Wetenschap",Subsidieregeling praktijkleren,Subsidies (regelingen),2021,306279,210349,45.6,over,8
+"Onderwijs, Cultuur en Wetenschap",Loopbaanorientatie,Subsidies (regelingen),2021,1782,3256,-45.3,under,6
+"Onderwijs, Cultuur en Wetenschap",Loopbaanorientatie,Subsidies (regelingen),2022,1522,2764,-44.9,under,6
+"Onderwijs, Cultuur en Wetenschap",Caribisch Nederland,Bijdrage aan medeoverheden,2022,10658,7369,44.6,over,8
+Economische Zaken en Klimaat,Uitkering aankoop woningen onder hoogspanningsverb,Bijdrage aan medeoverheden,2023,5512,3814,44.5,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,RVB,Bijdrage aan agentschappen,2021,22688,15705,44.5,over,6
+Infrastructuur en Waterstaat,Tijdelijke subsidieregeling Milieu Centraal 2018–2021,Subsidies (regelingen),2021,1987,1377,44.3,over,5
+Economische Zaken en Klimaat,MKB werkplaatsen,Subsidies (regelingen),2024,687,1231,-44.2,under,5
+"Onderwijs, Cultuur en Wetenschap","Stichting Kennisnet (basissubsidie) po, vo, mbo",Subsidies (regelingen),2024,21046,37568,-44.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Subsidies (regelingen),2024,3914,6962,-43.8,under,6
+"Onderwijs, Cultuur en Wetenschap",KB,Bekostiging,2022,120795,83978,43.8,over,8
+Economische Zaken en Klimaat,Vroegefasefinanciering,Leningen,2022,9460,6591,43.5,over,6
+Financiën,Muntcirculatie,Bekostiging,2021,2072,3670,-43.5,under,8
+"Onderwijs, Cultuur en Wetenschap",Subsidieregeling praktijkleren,Subsidies (regelingen),2024,548166,382372,43.4,over,8
+Infrastructuur en Waterstaat,Tijdelijke subsidieregeling drinkwater BES en rioolwaterzuiveringsinstallatie Bonaire 2018-2022,Subsidies (regelingen),2020,8117,5667,43.2,over,4
+Economische Zaken en Klimaat,Topsector Energie,Subsidies (regelingen),2020,80595,56273,43.2,over,7
+"Onderwijs, Cultuur en Wetenschap",Begeleidingsgesprekken jeugdwerkloosheid,Bekostiging,2024,10449,18341,-43.0,under,4
+"Onderwijs, Cultuur en Wetenschap",Dotatie/onttrekking Algemene Mediareserve,Bekostiging,2024,31797,55446,-42.7,under,8
+Defensie,Subsidies,Subsidies (regelingen),2023,58830,41212,42.7,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan ZBOs en RWTs,2021,7580,13203,-42.6,under,7
+Infrastructuur en Waterstaat,Subsidieregeling waterveiligheid en waterzekerheid stedelijke delta's,Subsidies (regelingen),2020,1890,3280,-42.4,under,5
+"Landbouw, Natuur en Voedselkwaliteit",Marktintroductie Energie Innovatie,Subsidies (regelingen),2022,2765,4794,-42.3,under,6
+Economische Zaken en Klimaat,Thematisch Technology Transfer,Leningen,2024,6407,4504,42.2,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Bouwregelgeving en bouwkwaliteit,Subsidies (regelingen),2021,5747,9945,-42.2,under,5
+Economische Zaken en Klimaat,Economische ontwikkeling en technologie,Bijdrage aan (inter-)nationale organisaties,2022,6237,4390,42.1,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Bestuur en regio,Subsidies (regelingen),2022,2919,2056,42.0,over,5
+"Onderwijs, Cultuur en Wetenschap",Dienst Uitvoering Onderwijs (DUO),Bijdrage aan agentschappen,2021,300041,211406,41.9,over,7
+"Onderwijs, Cultuur en Wetenschap",Flexibel ho volwasse,Bekostiging,2020,5046,8686,-41.9,under,4
+"Onderwijs, Cultuur en Wetenschap",Vluchteling Studenten UAF,Subsidies (regelingen),2024,1834,3142,-41.6,under,4
+Economische Zaken en Klimaat,Co-FIN ERA-NET Energiecall,Subsidies (regelingen),2024,1380,2361,-41.6,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Overlegstelsel,Subsidies (regelingen),2022,1172,2001,-41.4,under,5
+"Onderwijs, Cultuur en Wetenschap",Caribisch Nederland,Bijdrage aan medeoverheden,2021,7795,5511,41.4,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Overlegstelsel,Subsidies (regelingen),2023,2198,1556,41.2,over,5
+"Onderwijs, Cultuur en Wetenschap",Loopbaanorientatie,Subsidies (regelingen),2024,34082,24165,41.0,over,6
+"Onderwijs, Cultuur en Wetenschap",Leven lang leren krediet NR,Leningen,2024,17840,30207,-40.9,under,4
+Gemeentefonds,Algemene uitkering,Bijdrage aan medeoverheden,2020,26817035,19055720,40.7,over,8
+Economische Zaken en Klimaat,Vroegefasefinanciering,Leningen,2024,7317,12257,-40.3,under,6
+Buitenlandse Zaken,Programma Ondersteuning Buitenlands Beleid,Bijdrage aan (inter-)nationale organisaties,2023,2298,3842,-40.2,under,4
+"Onderwijs, Cultuur en Wetenschap",Collegegeldkrediet (NR),Leningen,2024,150753,250347,-39.8,under,8
+"Onderwijs, Cultuur en Wetenschap",Stimuleringsfonds voor de Journalistiek,Bekostiging,2019,2273,3778,-39.8,under,8
+"Onderwijs, Cultuur en Wetenschap",Bijdrage aan (inter)nationale organisaties,Bijdrage aan (inter-)nationale organisaties,2020,1744,2894,-39.7,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,KvK,Bijdrage aan ZBOs en RWTs,2021,4175,6896,-39.5,under,6
+Economische Zaken en Klimaat,European Space Agency,Bijdrage aan (inter-)nationale organisaties,2022,76646,54977,39.4,over,6
+"Onderwijs, Cultuur en Wetenschap",Open en online onderwijs,Subsidies (regelingen),2019,1844,1332,38.5,over,8
+Binnenlandse Zaken en Koninkrijksrelaties,Geo-informatie,Bijdrage aan ZBOs en RWTs,2021,5145,3718,38.4,over,6
+"Onderwijs, Cultuur en Wetenschap",Tegemoetkoming kosten opleidingsscholen,Bekostiging,2020,7250,11723,-38.2,under,7
+Binnenlandse Zaken en Koninkrijksrelaties,Logius,Bijdrage aan agentschappen,2020,50735,81950,-38.1,under,7
+"Onderwijs, Cultuur en Wetenschap",Pilots zomerscholen,Subsidies (regelingen),2021,4705,7590,-38.0,under,5
+"Onderwijs, Cultuur en Wetenschap",Stichting Vervangingsfonds en Participatiefonds,Bijdrage aan ZBOs en RWTs,2021,13672,21902,-37.6,under,8
+"Onderwijs, Cultuur en Wetenschap",Stichting Vervangingsfonds en Participatiefonds,Bijdrage aan ZBOs en RWTs,2019,16226,25958,-37.5,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Geo-informatie,Bijdrage aan ZBOs en RWTs,2020,4545,3305,37.5,over,6
+"Onderwijs, Cultuur en Wetenschap",EMBC,Bijdrage aan (inter-)nationale organisaties,2024,1064,1685,-36.9,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,RDW,Bijdrage aan ZBOs en RWTs,2019,966,1529,-36.8,under,7
+"Onderwijs, Cultuur en Wetenschap",Pilots zomerscholen,Subsidies (regelingen),2023,6470,4743,36.4,over,5
+"Onderwijs, Cultuur en Wetenschap",Overig bekostiging Primair Onderwijs,Bekostiging,2022,24710,18160,36.1,over,7
+Economische Zaken en Klimaat,SEED Business Angels,Leningen,2022,1377,1012,36.0,over,6
+Justitie en Veiligheid,REAN-regeling,Subsidies (regelingen),2022,4931,3669,34.4,over,6
+Buitenlandse Zaken,Mensenrechten multilateraal,Bijdrage aan (inter-)nationale organisaties,2024,9674,14725,-34.3,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,Politieke partijen,Subsidies (regelingen),2021,27647,20614,34.1,over,5
+Infrastructuur en Waterstaat,Subsidieregeling versterking omgevingsveiligheid BRZO-sector,Subsidies (regelingen),2022,1157,1751,-33.9,under,5
+"Onderwijs, Cultuur en Wetenschap",Gender- en LHTBI Gelijkheid,Bekostiging,2020,8449,6317,33.8,over,8
+Infrastructuur en Waterstaat,Incidenteel,Subsidies (regelingen),2023,146900,221139,-33.6,under,6
+"Onderwijs, Cultuur en Wetenschap",Internationalisering Onderwijs,Subsidies (regelingen),2024,1759,1317,33.6,over,5
+Buitenlandse Zaken,VN-contributie voor crisisbeheersingsoperaties,Bijdrage aan (inter-)nationale organisaties,2024,67018,100436,-33.3,under,8
+"Onderwijs, Cultuur en Wetenschap",KB,Bekostiging,2023,121728,91464,33.1,over,8
+Economische Zaken en Klimaat,Innovatiekrediet,Leningen,2024,40828,60913,-33.0,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Geonovum,Bijdrage aan ZBOs en RWTs,2021,5126,3867,32.6,over,6
+Buitenlandse Zaken,OVSE,Bijdrage aan (inter-)nationale organisaties,2024,5426,8035,-32.5,under,8
+"Onderwijs, Cultuur en Wetenschap",Stimuleringsfonds voor de Journalistiek,Bekostiging,2020,2220,3276,-32.2,under,8
+Economische Zaken en Klimaat,Digital Trust Centre,Subsidies (regelingen),2024,744,1097,-32.2,under,6
+"Onderwijs, Cultuur en Wetenschap",ESO,Bijdrage aan (inter-)nationale organisaties,2024,10860,15975,-32.0,under,8
+"Onderwijs, Cultuur en Wetenschap",Aanvullende regeling leerlingendaling,Bekostiging,2022,4496,3408,31.9,over,5
+"Onderwijs, Cultuur en Wetenschap",Monumentenzorg,Bekostiging,2020,213403,161894,31.8,over,7
+Infrastructuur en Waterstaat,Subsidieregeling Demonstratie Klimaattechnologieën en – innovaties in transport,Subsidies (regelingen),2021,19800,15108,31.1,over,6
+"Onderwijs, Cultuur en Wetenschap",Verbreden inzet cultuur,Subsidies (regelingen),2024,15492,22481,-31.1,under,6
+"Onderwijs, Cultuur en Wetenschap",Actieplan Laaggeletterdheid/Tel mee met taal,Subsidies (regelingen),2024,14040,20243,-30.6,under,6
+"Onderwijs, Cultuur en Wetenschap",NWO: Praktijkgericht onderzoek hbo,Bijdrage aan ZBOs en RWTs,2020,60515,46367,30.5,over,5
+"Onderwijs, Cultuur en Wetenschap",NWO NWA,Bekostiging,2021,142403,109427,30.1,over,7
+"Onderwijs, Cultuur en Wetenschap",Bijdrage aan (inter)nationale organisaties,Bijdrage aan (inter-)nationale organisaties,2021,1757,2511,-30.0,under,7
+Justitie en Veiligheid,Halt,Bijdrage aan ZBOs en RWTs,2022,10820,8322,30.0,over,6
+"Onderwijs, Cultuur en Wetenschap",Stichting Vervangingsfonds en Participatiefonds,Bijdrage aan ZBOs en RWTs,2020,15976,22714,-29.7,under,8
+Sociale Zaken en Werkgelegenheid,DUO,Leningen,2019,127139,180579,-29.6,under,7
+Economische Zaken en Klimaat,Regeling seed capital technostarters,Leningen,2021,33974,26240,29.5,over,6
+"Onderwijs, Cultuur en Wetenschap",NWO NRO,Bekostiging,2021,41700,32202,29.5,over,8
+"Onderwijs, Cultuur en Wetenschap",EMBC,Bijdrage aan (inter-)nationale organisaties,2021,1333,1029,29.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Stichting Vervangingsfonds en Participatiefonds,Bijdrage aan ZBOs en RWTs,2022,10799,15291,-29.4,under,8
+"Onderwijs, Cultuur en Wetenschap",Aanvullende regeling leerlingendaling,Bekostiging,2024,4253,6014,-29.3,under,5
+Economische Zaken en Klimaat,IP en Valorisatie Oncode,Leningen,2024,3100,2400,29.2,over,5
+Economische Zaken en Klimaat,Regeling seed capital technostarters,Leningen,2024,35560,50211,-29.2,under,6
+Binnenlandse Zaken en Koninkrijksrelaties,Diverse bijdragen,Bijdrage aan ZBOs en RWTs,2022,8374,11803,-29.1,under,7
+"Onderwijs, Cultuur en Wetenschap",Vierjaarlijkse fondsen,Bekostiging,2024,287041,405066,-29.1,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,ProDemos,Subsidies (regelingen),2022,8979,6967,28.9,over,5
+Binnenlandse Zaken en Koninkrijksrelaties,Aan de Slag,Bijdrage aan agentschappen,2023,49518,38447,28.8,over,6
+"Onderwijs, Cultuur en Wetenschap",NWO NRO,Bekostiging,2024,40739,57101,-28.7,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Weerbaar bestuur,Subsidies (regelingen),2022,1359,1056,28.7,over,5
+Buitenlandse Zaken,Matra 2017-2020,Subsidies (regelingen),2019,1471,1144,28.6,over,7
+"Onderwijs, Cultuur en Wetenschap",Nationale coördinatie,Subsidies (regelingen),2023,1924,1496,28.6,over,6
+"Onderwijs, Cultuur en Wetenschap",Stichting Vervangingsfonds en Participatiefonds,Bijdrage aan ZBOs en RWTs,2024,11174,15624,-28.5,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Woningbouwimpuls,Bijdrage aan medeoverheden,2023,211318,295726,-28.5,under,4
+Buitenlandse Zaken,Mensenrechtenfonds 2017- 2020,Subsidies (regelingen),2019,4134,3220,28.4,over,7
+"Landbouw, Natuur en Voedselkwaliteit",Raad voor de Plantenrassen,Bijdrage aan ZBOs en RWTs,2023,1580,1232,28.2,over,4
+Economische Zaken en Klimaat,Groeifaciliteit,Garanties,2022,3092,2417,27.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Rijksdienst voor Ondernemend Nederland-apparaat,Bijdrage aan agentschappen,2024,1081,1496,-27.8,under,8
+"Onderwijs, Cultuur en Wetenschap",Regionaal Investeringsfonds,Bekostiging,2024,20374,28190,-27.7,under,8
+Economische Zaken en Klimaat,Innovatieregeling Demonstratieprojecten,Subsidies (regelingen),2024,45634,63064,-27.6,under,6
+Economische Zaken en Klimaat,Regeling seed capital technostarters,Leningen,2022,36666,28818,27.2,over,6
+Binnenlandse Zaken en Koninkrijksrelaties,ProDemos,Subsidies (regelingen),2021,8125,6388,27.2,over,5
+Economische Zaken en Klimaat,Bijdrage aan TNO,Bijdrage aan ZBOs en RWTs,2024,301401,236866,27.2,over,6
+"Onderwijs, Cultuur en Wetenschap",Specifiek cultuurbeleid,Subsidies (regelingen),2023,135164,185533,-27.1,under,8
+"Onderwijs, Cultuur en Wetenschap",Investeringsbudget,Bekostiging,2021,247216,339146,-27.1,under,8
+Buitenlandse Zaken,Contra-terrorisme,Bijdrage aan (inter-)nationale organisaties,2024,2733,3742,-27.0,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Energiebesparing Koopsector,Subsidies (regelingen),2023,23630,32361,-27.0,under,6
+"Onderwijs, Cultuur en Wetenschap",Onderwijsdeel hbo,Bekostiging,2022,4284827,3373631,27.0,over,8
+Economische Zaken en Klimaat,Topsector Energie,Subsidies (regelingen),2024,48736,66711,-26.9,under,7
+Economische Zaken en Klimaat,Programmatische Samenwerkingsverbanden,Subsidies (regelingen),2024,365515,288140,26.9,over,6
+"Onderwijs, Cultuur en Wetenschap",Monumentenzorg,Bekostiging,2024,151404,206237,-26.6,under,7
+"Onderwijs, Cultuur en Wetenschap",NWO Grootschalige researchinfrastructuur,Bekostiging,2020,55380,75381,-26.5,under,8
+Binnenlandse Zaken en Koninkrijksrelaties,Eenvoudig Beter,Subsidies (regelingen),2020,2713,3684,-26.3,under,6
+Infrastructuur en Waterstaat,Besluit financiële bepalingen bodemsanering: Bedrijvenregeling bodemsanering,Subsidies (regelingen),2020,1181,1597,-26.0,under,6
+"Landbouw, Natuur en Voedselkwaliteit",Ongedekte Vaste Kosten regeling COVID-19,Subsidies (regelingen),2023,35138,47459,-26.0,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,SAH,Subsidies (regelingen),2023,18644,25118,-25.8,under,4
+"Onderwijs, Cultuur en Wetenschap",UWV,Bijdrage aan ZBOs en RWTs,2024,2523,3390,-25.6,under,8
+"Onderwijs, Cultuur en Wetenschap",Nieuwe leerweg,Subsidies (regelingen),2024,12180,9696,25.6,over,5
+"Onderwijs, Cultuur en Wetenschap",NWO: Promotiebeurs voor leraren,Bijdrage aan ZBOs en RWTs,2020,10144,8084,25.5,over,8
+"Onderwijs, Cultuur en Wetenschap",Creatieve Industrie,Subsidies (regelingen),2019,2397,1910,25.5,over,8
+"Onderwijs, Cultuur en Wetenschap",NWO Grootschalige researchinfrastructuur,Bekostiging,2024,55380,74249,-25.4,under,8
+"Onderwijs, Cultuur en Wetenschap",Poolonderzoek,Bekostiging,2024,3147,4219,-25.4,under,8
+"Onderwijs, Cultuur en Wetenschap",NWO Talentenontwikkeling,Bekostiging,2024,165885,222405,-25.4,under,8
+Economische Zaken en Klimaat,Topsector Energie,Subsidies (regelingen),2022,69034,55072,25.4,over,7
+"Onderwijs, Cultuur en Wetenschap",Nederlandse Taalunie,Bijdrage aan (inter-)nationale organisaties,2022,7125,5692,25.2,over,8
+Buitenlandse Zaken,Mensenrechtenfonds,Bijdrage aan (inter-)nationale organisaties,2024,37905,50602,-25.1,under,4
+Binnenlandse Zaken en Koninkrijksrelaties,Dienst van de Huurcommissie,Bijdrage aan agentschappen,2021,11657,9323,25.0,over,4

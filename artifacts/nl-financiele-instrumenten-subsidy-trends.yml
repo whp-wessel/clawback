@@ -1,0 +1,34 @@
+task_id: nl-financiele-instrumenten-subsidy-trends
+
+artifacts:
+  - artifact_id: subsidy-growth-anomalies
+    format: csv
+    description: >
+      33 series-years where year-over-year growth exceeded 2 standard
+      deviations from the series historical trend. Includes instrument
+      name, category, yearly values, growth rate, and z-score.
+    sha256: "5feb45223f0abb87ccc996458db1f0e533adeb85cf90591840ab39ec6449d9a4"
+    storage:
+      type: git
+      path: pipelines/nl-financiele-instrumenten-subsidy-trends/output/subsidy-growth-anomalies.csv
+
+  - artifact_id: budget-vs-actual-outliers
+    format: csv
+    description: >
+      799 series-years where actual disbursement deviated more than 25%
+      from a 3-year trailing rolling mean baseline. Filtered to exclude
+      baselines below EUR 1M to avoid structural-break artifacts.
+    sha256: "b6af8406ed6e7b43e8fa3d0755f4b38aa2b0bbb06d96bf1eb69265b7054c5732"
+    storage:
+      type: git
+      path: pipelines/nl-financiele-instrumenten-subsidy-trends/output/budget-vs-actual-outliers.csv
+
+  - artifact_id: subsidy-trends-summary
+    format: md
+    description: >
+      Methodology, findings, and limitations. Includes required disclaimer
+      about signals vs. accusations.
+    sha256: "3d70877622facb2ee6bd1e72fcee8f21177ed5cdadb1b7f505066e13416309a2"
+    storage:
+      type: git
+      path: pipelines/nl-financiele-instrumenten-subsidy-trends/output/subsidy-trends-summary.md
