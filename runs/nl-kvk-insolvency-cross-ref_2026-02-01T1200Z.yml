@@ -1,0 +1,30 @@
+task_id: nl-kvk-insolvency-cross-ref
+
+timestamp: "2026-02-01T12:00:00Z"
+
+commit_sha: "60d1db9c8591ed71cf985ba7ef0bce24ce30d9f2"
+
+environment:
+  runtime: "python:3.13"
+  dependencies_lock: "pipelines/nl-kvk-insolvency-cross-ref/requirements.txt"
+
+inputs:
+  - path: data/nl-kvk-basis/PRD_202509060433_VerwerkingSBI_EXT_V2.csv.gz
+    sha256: "3995fe54e2459e90a2c7e8639ce9c8f2bb90ee8364f96bf184d2d1683b4251cc"
+    size_bytes: 87320265
+  - path: data/nl-insolvency/Centraal Insolventieregister_full_last_5_years_insolvencies.jsonl
+    sha256: "99387b4d7b1c632f79a824f23d8c6dfaaeb1212050b04b364715aa1f8c8fbba8"
+    size_bytes: 37229970
+
+outputs:
+  - artifact_id: rapid-insolvency-entities
+    sha256: "2ba0289da9222df190e76fdceb6750739aebd9d36567f1c118342f6238a1bedf"
+    size_bytes: 157343
+  - artifact_id: phoenix-signal-clusters
+    sha256: "44407cf28ff970a6f69a95b9894ed12a71b40ab37f5b83c9a69963b626368dee"
+    size_bytes: 568597
+  - artifact_id: phoenix-analysis-summary
+    sha256: "31ffe00e1d1be51ef71c7a68bd685be1880ea75f744b013435c46be9f3a2d79e"
+    size_bytes: 3319
+
+agent_id: whp-wessel

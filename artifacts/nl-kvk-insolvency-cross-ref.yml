@@ -1,0 +1,38 @@
+- id: rapid-insolvency-entities
+  task_id: nl-kvk-insolvency-cross-ref
+  sha256: "2ba0289da9222df190e76fdceb6750739aebd9d36567f1c118342f6238a1bedf"
+  format: csv
+  size_bytes: 157343
+  storage:
+    type: local
+    location: "pipelines/nl-kvk-insolvency-cross-ref/output/rapid-insolvency-entities.csv"
+  description: >
+    Companies that went insolvent within 3 years of KVK registration,
+    with registration date, insolvency date, SBI code, and address.
+  created_at: "2026-02-01T12:00:00Z"
+
+- id: phoenix-signal-clusters
+  task_id: nl-kvk-insolvency-cross-ref
+  sha256: "44407cf28ff970a6f69a95b9894ed12a71b40ab37f5b83c9a69963b626368dee"
+  format: csv
+  size_bytes: 568597
+  storage:
+    type: local
+    location: "pipelines/nl-kvk-insolvency-cross-ref/output/phoenix-signal-clusters.csv"
+  description: >
+    Clusters of entities at the same address or with similar names
+    that show sequential insolvency patterns.
+  created_at: "2026-02-01T12:00:00Z"
+
+- id: phoenix-analysis-summary
+  task_id: nl-kvk-insolvency-cross-ref
+  sha256: "31ffe00e1d1be51ef71c7a68bd685be1880ea75f744b013435c46be9f3a2d79e"
+  format: md
+  size_bytes: 3319
+  storage:
+    type: local
+    location: "pipelines/nl-kvk-insolvency-cross-ref/output/phoenix-analysis-summary.md"
+  description: >
+    Methodology, findings, and limitations. Includes required
+    disclaimer per policies/disclosure.yml.
+  created_at: "2026-02-01T12:00:00Z"
