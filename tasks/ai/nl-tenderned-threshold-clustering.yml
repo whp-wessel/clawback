@@ -2,58 +2,8 @@ id: nl-tenderned-threshold-clustering
 
 type: ai
 
-status: open
-
-objective: >
-  Analyze the distribution of contract values in TenderNed data (2023-2025)
-  to identify statistically unusual clustering just below EU mandatory tender
-  thresholds (EUR 221,000 for services, EUR 5,538,000 for works). A spike
-  in contracts valued at 90-99% of threshold may signal potential threshold
-  avoidance. Produce a distribution analysis and flag anomalous clusters.
-
-jurisdiction: nl
-
-datasets:
-  - registry_id: nl-tenderned-contracts
-    local_path: data/nl-tenderned/
-
-capabilities:
-  - etl
-  - stats
-
-constraints:
-  max_runtime_minutes: 30
-  max_memory_mb: 2048
-  requires_gpu: false
-
-artifacts:
-  - name: threshold-distribution
-    format: csv
-    description: >
-      Contract value distribution in buckets relative to each threshold
-      (e.g., 0-10%, 10-20%, ..., 90-95%, 95-99%, 99-100%, >100%).
-  - name: threshold-histogram
-    format: png
-    description: >
-      Histogram of contract values near each threshold with annotated
-      expected vs. observed frequencies in the just-below-threshold zone.
-  - name: threshold-analysis-summary
-    format: md
-    description: >
-      Methodology, statistical tests used (e.g., McCrary density test),
-      findings, and limitations. Must include required disclaimer.
-
-evaluation:
-  criteria:
-    - Must analyze both the services threshold (EUR 221K) and works threshold (EUR 5.5M)
-    - Must use a recognized statistical method to test for bunching
-    - Histogram must clearly show the threshold boundary
-    - Summary must include required disclosure disclaimer
-  min_confidence: 0.7
-
-depends_on: []
-
-claimed_by: ""
+status: in-review
+claimed_by: opencode
 
 created_at: "2025-01-31T12:00:00Z"
 updated_at: "2025-01-31T12:00:00Z"
