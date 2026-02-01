@@ -1,0 +1,22 @@
+task_id: nl-tenderned-threshold-clustering
+artifacts:
+  - id: threshold-distribution
+    description: Contract value distribution in buckets relative to thresholds
+    format: csv
+    path: pipelines/nl-tenderned-threshold-clustering/threshold-distribution.csv
+    sha256: 794bfff26464b7489fc6a9be3617d2cf02ef886bd60e0cfcbac61b477aa576c1
+  - id: threshold-histogram-services
+    description: Histogram showing threshold distribution for services contracts
+    format: png
+    path: pipelines/nl-tenderned-threshold-clustering/threshold-histogram-services.png
+    sha256: 115adbaa0c0ae4c610eaec67150d029e09449559fffc3c78f9ff7e594c427f83
+  - id: threshold-histogram-works
+    description: Histogram showing threshold distribution for works contracts
+    format: png
+    path: pipelines/nl-tenderned-threshold-clustering/threshold-histogram-works.png
+    sha256: 6f7c23b49aee0d8167f6536f2dd59d1a5e38289e84dd16126cbc203f40f7c1ef
+  - id: threshold-analysis-summary
+    description: Complete analysis methodology and findings
+    format: md
+    path: pipelines/nl-tenderned-threshold-clustering/threshold-analysis-summary.md
+    sha256: 768a7867ec4a9e7310283037300c7724f8114c035be34a98c40bdba19bbcc75c

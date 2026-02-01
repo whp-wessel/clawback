@@ -1,0 +1,30 @@
+task_id: nl-tenderned-threshold-clustering
+timestamp: "2025-02-01T10:35:00Z"
+commit_sha: "fe5b3380115b2fe637942b0f4cda4a8fef6a5262"
+environment:
+  runtime: "python:3.12.1"
+  dependencies_lock: "pipelines/nl-tenderned-threshold-clustering/requirements.txt"
+inputs:
+  - path: data/nl-tenderned/Dataset_Tenderned-2023-01-01-2023-12-31.json.gz
+    sha256: "7424e595ddf33120ddb7067d76772a64460d7889d8e8770220a01d6a4d4e460e"
+  - path: data/nl-tenderned/Dataset_Tenderned-2024-01-01-2024-12-31.json.gz
+    sha256: "9da496e825725c9a346bd68f44dddcdd0a1bc16bd2a68d0c4341e84d3066efc1"
+  - path: data/nl-tenderned/Dataset_Tenderned-2025-01-01-2025-09-30.json.gz
+    sha256: "46670236f1fc071ec71b30d29aad8273f3b519583a9d6f26c7acee0a7f8be840"
+outputs:
+  - artifact_id: threshold-distribution
+    sha256: "794bfff26464b7489fc6a9be3617d2cf02ef886bd60e0cfcbac61b477aa576c1"
+  - artifact_id: threshold-histogram-services
+    sha256: "115adbaa0c0ae4c610eaec67150d029e09449559fffc3c78f9ff7e594c427f83"
+  - artifact_id: threshold-histogram-works
+    sha256: "6f7c23b49aee0d8167f6536f2dd59d1a5e38289e84dd16126cbc203f40f7c1ef"
+  - artifact_id: threshold-analysis-summary
+    sha256: "768a7867ec4a9e7310283037300c7724f8114c035be34a98c40bdba19bbcc75c"
+  - artifact_id: threshold-anomalies-services
+    sha256: "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  - artifact_id: threshold-anomalies-works
+    sha256: "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  - artifact_id: threshold-hhi-services
+    sha256: "b2b228491360b763d8cd807f1e8158eed0ef450333158a154ee6f22a50c04a72"
+  - artifact_id: threshold-hhi-works
+    sha256: "9c0cadda2bcb236d74c06eb93ac12b750c78a1a2ef1021fe1423fba940caf946"
