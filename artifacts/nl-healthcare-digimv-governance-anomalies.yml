@@ -1,0 +1,29 @@
+# Artifact pointers for task: nl-healthcare-digimv-governance-anomalies
+# Actual files are stored in pipeline output directory.
+
+- id: governance-change-flags
+  task_id: nl-healthcare-digimv-governance-anomalies
+  sha256: "8a85129c70c858041f2bcec70dcaf5603a2a7caf4a407f5b433e189bcadb51a2"
+  format: csv
+  size_bytes: 1510343
+  storage:
+    type: local
+    location: "pipelines/nl-healthcare-digimv-governance-anomalies/output/governance-change-flags.csv"
+  description: >
+    Institutions with significant year-over-year governance changes,
+    including board composition changes, missing disclosures, and
+    revenue anomalies. 10,310 flags across 6,131 unique institutions.
+  created_at: "2026-02-09T12:00:00Z"
+
+- id: governance-analysis-summary
+  task_id: nl-healthcare-digimv-governance-anomalies
+  sha256: "ae0800957e6eda90ada2bcf5f9f2a0bc9ef1df11c9f224161e7bddf324b1ccd5"
+  format: md
+  size_bytes: 4957
+  storage:
+    type: local
+    location: "pipelines/nl-healthcare-digimv-governance-anomalies/output/governance-analysis-summary.md"
+  description: >
+    Methodology, findings, limitations. Includes required disclaimer
+    per policies/disclosure.yml.
+  created_at: "2026-02-09T12:00:00Z"

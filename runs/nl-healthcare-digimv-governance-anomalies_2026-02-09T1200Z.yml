@@ -1,0 +1,40 @@
+# Run receipt for task: nl-healthcare-digimv-governance-anomalies
+task_id: nl-healthcare-digimv-governance-anomalies
+
+timestamp: "2026-02-09T12:00:00Z"
+
+commit_sha: "eac833e191222120819918fcaa99529bc7d40e5b"
+
+environment:
+  runtime: "python:3.14.2"
+  dependencies_lock: "pipelines/nl-healthcare-digimv-governance-anomalies/requirements.txt"
+  os: "darwin-25.2.0"
+
+inputs:
+  - path: data/nl-digimv-2023/DigiMV2023_MultipleTables_20241001_0927.csv.gz
+    sha256: "69617797ad691a994c399edd0d47719090d9a239b77215b756e3e3a87807ae4b"
+    size_bytes: 8193495
+  - path: data/nl-digimv-2024/digimv2024-openbaar-20251022-1713-multipletables-part-1.csv.gz
+    sha256: "2e91cec9c066cd1d156be749706e8667448d71bc492975bed86afda410f80330"
+    size_bytes: 5025463
+  - path: data/nl-digimv-2024/digimv2024-openbaar-20251022-1713-multipletables-part-2.csv.gz
+    sha256: "4cb8dcf8e4b9009f9f02623cb437ae0a06aae8a1395b128cfd615a24358b2eac"
+    size_bytes: 6500075
+  - path: data/nl-digimv-2024/digimv2024-openbaar-20251022-1713-multipletables-part-3.csv.gz
+    sha256: "6d68567814822c4a69cd66dea2aed89de1b517908c06889a576e47ff6962dc75"
+    size_bytes: 4896547
+  - path: data/nl-zorgaanbieders/nl_zorgaanbieders_4digit_only.csv.gz
+    sha256: "9bdb7bc54d67a778585e5973d988dee541801a0c1412dd7bf0bda72661c3c65a"
+    size_bytes: 3624224
+
+outputs:
+  - artifact_id: governance-change-flags
+    sha256: "8a85129c70c858041f2bcec70dcaf5603a2a7caf4a407f5b433e189bcadb51a2"
+    size_bytes: 1510343
+  - artifact_id: governance-analysis-summary
+    sha256: "ae0800957e6eda90ada2bcf5f9f2a0bc9ef1df11c9f224161e7bddf324b1ccd5"
+    size_bytes: 4957
+
+duration_seconds: 45
+
+agent_id: whp-wessel

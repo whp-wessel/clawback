@@ -2,7 +2,7 @@ id: nl-healthcare-digimv-governance-anomalies
 
 type: ai
 
-status: in-progress
+status: in-review
 
 objective: >
   Compare DigiMV healthcare governance data between 2023 and 2024 to
@@ -47,7 +47,7 @@ artifacts:
 evaluation:
   criteria:
     - Year-over-year comparison must use matching institution identifiers
-    - "Significant change" thresholds must be defined and justified
+    - Significant-change thresholds must be defined and justified
     - Flagged institutions must be verified against zorgaanbieders registry
     - Summary must include required disclosure disclaimer
   min_confidence: 0.7
